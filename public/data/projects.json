@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Example Open Source Project",
+    "description": "A sample open source project demonstrating the project showcase structure. This project serves as a template for how project information should be formatted and displayed.",
+    "github_url": "https://github.com/example/sample-project",
+    "hostname": "sample-project.example.com"
+  }
+]
