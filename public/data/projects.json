@@ -1,0 +1,59 @@
+[
+  {
+    "name": "EasyKit",
+    "description": "EasyKit is a modular, menu-driven Windows toolkit for web developers. It streamlines common development and maintenance tasks by providing a unified console UI for Git, NPM, Composer, Laravel, and more. With built-in tool detection, context menu integration, and a marketplace for essential developer tools, EasyKit helps automate workflows and reduce repetitive work.",
+    "github_url": "https://github.com/LoveDoLove/EasyKit",
+    "hostname": "easykit.zone.id"
+  },
+  {
+    "name": "cloudflare-smart-tools",
+    "description": "Cloudflare Smart Tools is a comprehensive collection of modules designed to supercharge your Cloudflare setup with advanced caching strategies, edge optimization, and intelligent CDN routing. Whether you're running a WordPress site, building a modern web application, or managing complex CDN requirements, these tools provide the flexibility and power you need.",
+    "github_url": "https://github.com/LoveDoLove/cloudflare-smart-tools",
+    "hostname": "cf-smart-tools.zone.id"
+  },
+  {
+    "name": "alist-freebsd",
+    "description": "This repository provides a build wrapper and automation for compiling the upstream alist project for FreeBSD. It includes a custom build.sh script and GitHub Actions workflows to automate building and cleaning up workflow runs. The resulting binary is suitable for running on FreeBSD systems.",
+    "github_url": "https://github.com/LoveDoLove/alist-freebsd"
+  },
+  {
+    "name": "memos-freebsd",
+    "description": "This project provides a FreeBSD-compatible build and porting scripts for the memos self-hosted knowledge base server. It enables building and running memos natively on FreeBSD systems using cross-compilation and custom build tooling.",
+    "github_url": "https://github.com/LoveDoLove/memos-freebsd"
+  },
+  {
+    "name": "panindex-freebsd",
+    "description": "PanIndex FreeBSD provides scripts and automation to build the PanIndex file indexing and sharing server for FreeBSD. It fetches the latest upstream release, configures the build environment, and produces FreeBSD-compatible binaries. This project is not the original PanIndex, but a downstream build/packaging effort for FreeBSD users.",
+    "github_url": "https://github.com/LoveDoLove/panindex-freebsd"
+  },
+  {
+    "name": "cloudreve-freebsd",
+    "description": "This project provides scripts and GitHub Actions workflows to automate the process of building and packaging the Cloudreve cloud storage system for FreeBSD (amd64). It is not the main Cloudreve repository, but a community-maintained solution for producing up-to-date FreeBSD binaries and release packages.",
+    "github_url": "https://github.com/LoveDoLove/cloudreve-freebsd"
+  },
+  {
+    "name": "Github-Profile-Manager",
+    "description": "GitHub Profile Manager automates your GitHub profile README by dynamically updating featured repositories based on stars and displaying a 3D contribution graph. All updates are handled via GitHub Actions workflows—no manual script running required.",
+    "github_url": "https://github.com/LoveDoLove/Github-Profile-Manager"
+  },
+  {
+    "name": "Github-Forks-Sync-Manager",
+    "description": "Github-Forks-Sync-Manager provides a GitHub Actions workflow and Python script to automate the process of updating all forked repositories for a specified GitHub account, ensuring they are always in sync with their upstream sources. This is useful for developers and organizations who maintain many forks and want to keep them up-to-date automatically.",
+    "github_url": "https://github.com/LoveDoLove/Github-Forks-Sync-Manager"
+  },
+  {
+    "name": "Github-Action-Cleaner",
+    "description": "GitHub Action Cleaner helps you automatically delete old or failed workflow runs from your repository using simple, ready-to-use GitHub Actions workflows. No manual script setup or local execution is required—just copy the workflow YAML file to your repo and run it from the Actions tab.",
+    "github_url": "https://github.com/LoveDoLove/Github-Action-Cleaner"
+  },
+  {
+    "name": "CS_CommonUtilities",
+    "description": "CommonUtilities is a modular, production-ready C#/.NET utility library and toolkit designed to accelerate development for .NET 8+ projects. It provides a comprehensive set of helpers, models, and utilities for common application needs, including security, data, HTTP, scheduling, media, and more. The project is structured for easy extension and integration into any .NET solution.",
+    "github_url": "https://github.com/LoveDoLove/CS_CommonUtilities"
+  },
+  {
+    "name": "TpLinkFirmwareDirectory",
+    "description": "TpLinkFirmwareDirectory is a Python utility that lists and exports all available firmware and app files from the public TP-Link S3 bucket (download.tplinkcloud.com). It is useful for researchers, developers, and users who want to audit, archive, or analyze TP-Link firmware and app releases.",
+    "github_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory"
+  }
+]

@@ -165,3 +165,11 @@ dist
 .env*
 !.env.example
 .wrangler/
+
+# Hide
+Output
+install_rooflow.cmd
+generate_mcp_yaml.py
+.vscode
+*instructions.md
+BLANK_README.md
