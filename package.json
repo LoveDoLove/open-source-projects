@@ -1,6 +1,6 @@
 {
 	"name": "open-source-projects",
-	"version": "1.0.2-1",
+	"version": "1.0.2",
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
