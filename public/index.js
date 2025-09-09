@@ -85,14 +85,15 @@ function createProjectCard(project) {
 
   // Topics
   if (safeTopics.length > 0) {
-    const topicsList = document.createElement('ul');
-    topicsList.className = 'project-topics';
+    const topicsRow = document.createElement('div');
+    topicsRow.className = 'project-topics-row';
     safeTopics.forEach(topic => {
-      const topicItem = document.createElement('li');
-      topicItem.textContent = topic;
-      topicsList.appendChild(topicItem);
+      const chip = document.createElement('span');
+      chip.className = 'topic-chip';
+      chip.textContent = topic;
+      topicsRow.appendChild(chip);
     });
-    card.appendChild(topicsList);
+    card.appendChild(topicsRow);
   }
 
   // Metadata fields
