@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '0 0 * * *' # daily
 
+permissions:
+  contents: write
+
 jobs:
   update-metadata:
     runs-on: ubuntu-latest
