@@ -1,0 +1,20 @@
+name: Cleanup Failed Workflow Runs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  cleanup_failed_runs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download cleanup_failed_runs.py
+        run: curl -L -o cleanup_failed_runs.py https://raw.githubusercontent.com/LoveDoLove/Github-Action-Cleaner/refs/heads/main/scripts/cleanup_failed_runs.py
+
+      - name: Run cleanup_failed_runs.py
+        run: python -u cleanup_failed_runs.py
+        env:
+          REPO: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
