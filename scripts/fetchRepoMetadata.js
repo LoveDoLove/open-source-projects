@@ -3,7 +3,10 @@
 
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
+let fetch = global.fetch;
+if (!fetch) {
+  fetch = (...args) => import('node-fetch').then(({default: f}) => f(...args));
+}
 
 const SOURCE = path.join(__dirname, '../data/projects.json');
 const OUTPUT = path.join(__dirname, '../public/data/projects.json');
