@@ -10,4 +10,8 @@
 	"devDependencies": {
 		"wrangler": "^4.33.0"
 	}
+  ,
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
 }
