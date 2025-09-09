@@ -106,6 +106,37 @@
 			 * Fetches project data from the /data/projects.json endpoint
 			 * @returns {Promise<Array>} Array of project objects
 			 */
+/**
+ * Updated fetchProjects for new nested provider/account structure
+ * @returns {Promise<Array>} Array of flattened project objects
+ */
+async function fetchProjects() {
+	const response = await fetch('/data/projects.json');
+	if (!response.ok) {
+		throw new Error(`HTTP error! status: ${response.status}`);
+	}
+	const accountsList = await response.json();
+	const projects = [];
+	accountsList.forEach(accountObj => {
+		['github', 'gitlab', 'gitee', 'bitbucket'].forEach(provider => {
+			const providerAccounts = accountObj[provider];
+			if (Array.isArray(providerAccounts)) {
+				providerAccounts.forEach(acc => {
+					if (acc.username && Array.isArray(acc.projects)) {
+						acc.projects.forEach(repo => {
+							projects.push({
+								provider,
+								username: acc.username,
+								repo
+							});
+						});
+					}
+				});
+			}
+		});
+	});
+	return projects;
+}
 			async function fetchProjects() {
 				const response = await fetch('/data/projects.json');
 				
