@@ -1,6 +1,6 @@
 {
 	"name": "open-source-projects",
-	"version": "1.0.2-1",
+	"version": "1.0.2",
 	"private": true,
 	"scripts": {
 		"deploy": "wrangler deploy",
@@ -10,4 +10,8 @@
 	"devDependencies": {
 		"wrangler": "^4.33.0"
 	}
+  ,
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
 }
