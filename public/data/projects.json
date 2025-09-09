@@ -4,8 +4,9 @@
       {
         "username": "LoveDoLove",
         "projects": [
+          "open-source-projects",
           "EasyKit",
-          "cloudflare-smart-tools",
+          "cloudflare-smart-cache",
           "alist-freebsd",
           "memos-freebsd",
           "panindex-freebsd",
@@ -18,12 +19,34 @@
         ],
         "metadata": [
           {
+            "repo": "open-source-projects",
+            "name": "open-source-projects",
+            "description": "The Open Source Projects Showcase is a dynamic web application designed to elegantly display and organize open source projects. Built with modern web technologies and deployed on Cloudflare Workers, this project provides a clean, responsive interface for browsing project collections.",
+            "html_url": "https://github.com/LoveDoLove/open-source-projects",
+            "homepage": "https://lovedolove.hidns.co",
+            "stargazers_count": 2,
+            "forks_count": 0,
+            "topics": [
+              "cloudflare-workers",
+              "css3",
+              "html5",
+              "javascript",
+              "json",
+              "nodejs",
+              "open-source",
+              "portfolio",
+              "responsive-design",
+              "showcase"
+            ],
+            "updated_at": "2025-09-29T19:32:23Z"
+          },
+          {
             "repo": "EasyKit",
             "name": "EasyKit",
             "description": "EasyKit is a comprehensive Windows toolkit designed specifically for web developers. It provides a unified console interface that integrates multiple development tools including Git, NPM, Composer, and Laravel Artisan, making it easier to manage web development workflows on Windows systems.",
             "html_url": "https://github.com/LoveDoLove/EasyKit",
             "homepage": "https://easykit.lovedolove.nyc.mn",
-            "stargazers_count": 3,
+            "stargazers_count": 4,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -39,37 +62,30 @@
               "windows-automation",
               "windows-toolkit"
             ],
-            "updated_at": "2025-09-08T14:48:37Z"
+            "updated_at": "2025-09-17T06:25:36Z"
           },
           {
-            "repo": "cloudflare-smart-tools",
-            "name": "cloudflare-smart-tools",
-            "description": "Modular suite for advanced Cloudflare cache management, edge caching, and flexible CDN routing for modern web applications.",
-            "html_url": "https://github.com/LoveDoLove/cloudflare-smart-tools",
-            "homepage": "https://cf-smart-tools.zone.id/",
+            "repo": "cloudflare-smart-cache",
+            "name": "cloudflare-smart-cache",
+            "description": "Powerful all-in-one Cloudflare cache solution for WordPress: edge HTML caching, automatic purging, advanced admin controls, API token support, and comprehensive logging.",
+            "html_url": "https://github.com/LoveDoLove/cloudflare-smart-cache",
+            "homepage": "https://cf-smart-cache.lovedolove.nyc.mn",
             "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
-              "api-integration",
-              "cache-management",
+              "admin",
+              "api",
+              "batch-processing",
               "cache-purging",
-              "cdn",
+              "caching",
               "cloudflare",
-              "cloudflare-kv",
-              "cloudflare-workers",
               "edge-caching",
-              "javascript",
-              "kv-storage",
-              "open-source",
+              "logging",
               "php",
-              "proxy",
-              "rules-engine",
-              "static-site",
-              "web-performance",
-              "wordpress",
+              "rate-limiting",
               "wordpress-plugin"
             ],
-            "updated_at": "2025-09-06T13:24:35Z"
+            "updated_at": "2025-09-14T13:27:44Z"
           },
           {
             "repo": "alist-freebsd",
@@ -101,7 +117,7 @@
             "description": "This project provides a FreeBSD-compatible build and porting scripts for the memos self-hosted knowledge base server. It enables building and running memos natively on FreeBSD systems using cross-compilation and custom build tooling.",
             "html_url": "https://github.com/LoveDoLove/memos-freebsd",
             "homepage": "https://github.com/LoveDoLove/memos-freebsd",
-            "stargazers_count": 2,
+            "stargazers_count": 1,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -120,7 +136,7 @@
               "release",
               "sysroot"
             ],
-            "updated_at": "2025-08-17T08:05:31Z"
+            "updated_at": "2025-09-13T15:52:02Z"
           },
           {
             "repo": "panindex-freebsd",
@@ -249,8 +265,8 @@
             "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
             "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
             "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "stargazers_count": 1,
-            "forks_count": 0,
+            "stargazers_count": 2,
+            "forks_count": 1,
             "topics": [
               "automation",
               "aws-s3",
@@ -269,7 +285,7 @@
               "tplink",
               "uv"
             ],
-            "updated_at": "2025-09-09T01:16:44Z"
+            "updated_at": "2025-09-30T01:17:16Z"
           }
         ]
       }
