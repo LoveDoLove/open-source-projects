@@ -4,8 +4,9 @@
       {
         "username": "LoveDoLove",
         "projects": [
+          "open-source-projects",
           "EasyKit",
-          "cloudflare-smart-tools",
+          "cloudflare-smart-cache",
           "alist-freebsd",
           "memos-freebsd",
           "panindex-freebsd",
