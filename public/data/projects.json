@@ -38,7 +38,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-09-12T01:25:56Z"
+            "updated_at": "2025-09-13T01:22:19Z"
           },
           {
             "repo": "EasyKit",
@@ -117,7 +117,7 @@
             "description": "This project provides a FreeBSD-compatible build and porting scripts for the memos self-hosted knowledge base server. It enables building and running memos natively on FreeBSD systems using cross-compilation and custom build tooling.",
             "html_url": "https://github.com/LoveDoLove/memos-freebsd",
             "homepage": "https://github.com/LoveDoLove/memos-freebsd",
-            "stargazers_count": 2,
+            "stargazers_count": 1,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -136,7 +136,7 @@
               "release",
               "sysroot"
             ],
-            "updated_at": "2025-08-17T08:05:31Z"
+            "updated_at": "2025-09-13T15:52:02Z"
           },
           {
             "repo": "panindex-freebsd",
