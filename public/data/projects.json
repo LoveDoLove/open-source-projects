@@ -38,7 +38,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-09-13T01:22:19Z"
+            "updated_at": "2025-09-14T01:40:39Z"
           },
           {
             "repo": "EasyKit",
@@ -70,7 +70,7 @@
             "description": "Powerful all-in-one Cloudflare cache solution for WordPress: edge HTML caching, automatic purging, advanced admin controls, API token support, and comprehensive logging.",
             "html_url": "https://github.com/LoveDoLove/cloudflare-smart-cache",
             "homepage": "https://cf-smart-cache.lovedolove.nyc.mn",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
               "admin",
@@ -85,7 +85,7 @@
               "rate-limiting",
               "wordpress-plugin"
             ],
-            "updated_at": "2025-09-07T06:51:09Z"
+            "updated_at": "2025-09-14T13:27:44Z"
           },
           {
             "repo": "alist-freebsd",
@@ -285,7 +285,7 @@
               "tplink",
               "uv"
             ],
-            "updated_at": "2025-09-13T01:10:49Z"
+            "updated_at": "2025-09-15T01:20:44Z"
           }
         ]
       }
