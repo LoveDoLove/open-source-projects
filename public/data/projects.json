@@ -38,7 +38,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-09-18T01:26:42Z"
+            "updated_at": "2025-09-19T01:37:05Z"
           },
           {
             "repo": "EasyKit",
@@ -266,7 +266,7 @@
             "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
             "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
             "stargazers_count": 1,
-            "forks_count": 0,
+            "forks_count": 1,
             "topics": [
               "automation",
               "aws-s3",
@@ -285,7 +285,7 @@
               "tplink",
               "uv"
             ],
-            "updated_at": "2025-09-19T01:16:40Z"
+            "updated_at": "2025-09-20T01:13:15Z"
           }
         ]
       }
