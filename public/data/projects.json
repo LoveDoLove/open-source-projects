@@ -38,7 +38,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-09-19T01:37:05Z"
+            "updated_at": "2025-09-20T01:25:39Z"
           },
           {
             "repo": "EasyKit",
@@ -265,7 +265,7 @@
             "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
             "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
             "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "forks_count": 1,
             "topics": [
               "automation",
@@ -285,7 +285,7 @@
               "tplink",
               "uv"
             ],
-            "updated_at": "2025-09-20T01:13:15Z"
+            "updated_at": "2025-09-21T01:22:23Z"
           }
         ]
       }
