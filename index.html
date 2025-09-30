@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover and explore a curated collection of open source projects from GitHub, GitLab, Gitee, and Bitbucket."
+    />
+    <meta property="og:title" content="Open Source Projects Showcase" />
+    <meta
+      property="og:description"
+      content="Discover and explore a curated collection of open source projects from multiple platforms."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/images/icon.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Open Source Projects Showcase" />
+    <meta
+      name="twitter:description"
+      content="Discover and explore a curated collection of open source projects from multiple platforms."
+    />
+    <meta
+      name="twitter:image"
+      content="https://yourdomain.com/images/icon.png"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>Open Source Projects Showcase</title>
+    <link rel="preload" href="style.min.css" as="style" />
+    <link rel="stylesheet" href="style.min.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 id="heading">Open Source Projects Showcase</h1>
+        <p>Discover and explore our collection of open source projects.</p>
+      </header>
+      <!-- Container where projects will be dynamically rendered -->
+      <section
+        id="projects-container"
+        class="project-container"
+        aria-live="polite"
+        aria-label="Project list"
+      >
+        <div class="loading" role="status" aria-live="polite">
+          Loading projects...
+        </div>
+      </section>
+    </main>
+    <script src="index.min.js" defer></script>
+  </body>
+</html>
