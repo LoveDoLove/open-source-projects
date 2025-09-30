@@ -182,11 +182,21 @@ Each project object supports the following fields:
 
 The application's styling can be customized by modifying the CSS in the `<style>` section of `public/index.html`. The design is fully responsive and uses a card-based layout.
 
-### Development Workflow
+
+### Development & Deployment Workflow
 
 1. **Local Development**: Use `npm run dev` to start a local development server
 2. **Testing**: Make changes and test them locally before deployment
-3. **Deployment**: Use `npm run deploy` to publish changes to Cloudflare Workers
+3. **Cloudflare Workers Deployment**: Use `npm run deploy` to publish changes to Cloudflare Workers
+4. **GitHub Pages Deployment**: The static website in the `public` folder is automatically published to GitHub Pages by a GitHub Actions workflow. This workflow runs after the `Fetch Repo Metadata` workflow completes successfully on the `main` branch. No local installation of `gh-pages` is required; the deployment is handled entirely by GitHub Actions using `npx gh-pages`.
+
+#### How GitHub Pages Deployment Works
+
+- The workflow `.github/workflows/deploy-pages.yml` is triggered after `.github/workflows/fetch-repo-metadata.yml` completes successfully.
+- It checks out the repository, installs dependencies, and runs `npx gh-pages -d public` to publish the contents of the `public` directory to the `gh-pages` branch.
+- The site is then available via GitHub Pages for this repository.
+
+> **Note:** You do not need to run any deployment commands locally for GitHub Pages. All publishing is automated via GitHub Actions.
 
 _For more detailed examples and API documentation, please refer to the [Documentation](https://github.com/LoveDoLove/open-source-projects/wiki)_
 

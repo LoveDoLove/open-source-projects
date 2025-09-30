@@ -6,7 +6,9 @@
  * @returns {Promise<Array>} Array of project objects.
  */
 async function fetchProjects() {
-  const response = await fetch('/data/projects.json');
+  const hostname = window.location.hostname;
+  const responseUrl = hostname === 'localhost' ? '/data/projects.json' : '/data/projects.json';
+  const response = await fetch(responseUrl);
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   }
