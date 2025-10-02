@@ -19,6 +19,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Ensure CNAME for custom domain
+        run: echo "lovedolove.hidns.co" > public/CNAME
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
