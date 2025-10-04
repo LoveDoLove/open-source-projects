@@ -38,7 +38,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-10-02T08:35:26Z"
+            "updated_at": "2025-10-03T01:26:28Z"
           },
           {
             "repo": "EasyKit",
@@ -46,7 +46,7 @@
             "description": "EasyKit is a comprehensive Windows toolkit designed specifically for web developers. It provides a unified console interface that integrates multiple development tools including Git, NPM, Composer, and Laravel Artisan, making it easier to manage web development workflows on Windows systems.",
             "html_url": "https://github.com/LoveDoLove/EasyKit",
             "homepage": "https://easykit.lovedolove.nyc.mn",
-            "stargazers_count": 4,
+            "stargazers_count": 3,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -62,7 +62,7 @@
               "windows-automation",
               "windows-toolkit"
             ],
-            "updated_at": "2025-09-17T06:25:36Z"
+            "updated_at": "2025-10-03T22:32:07Z"
           },
           {
             "repo": "cloudflare-smart-cache",
@@ -70,7 +70,7 @@
             "description": "Powerful all-in-one Cloudflare cache solution for WordPress: edge HTML caching, automatic purging, advanced admin controls, API token support, and comprehensive logging.",
             "html_url": "https://github.com/LoveDoLove/cloudflare-smart-cache",
             "homepage": "https://cf-smart-cache.lovedolove.nyc.mn",
-            "stargazers_count": 2,
+            "stargazers_count": 1,
             "forks_count": 0,
             "topics": [
               "admin",
@@ -85,7 +85,7 @@
               "rate-limiting",
               "wordpress-plugin"
             ],
-            "updated_at": "2025-09-14T13:27:44Z"
+            "updated_at": "2025-10-03T22:33:00Z"
           },
           {
             "repo": "alist-freebsd",
