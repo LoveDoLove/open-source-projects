@@ -6,6 +6,7 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
+          "PrismLauncher",
           "cloudflare-smart-cache",
           "Github-Profile-Manager",
           "Github-Forks-Sync-Manager",
@@ -14,8 +15,8 @@
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "CS_CommonUtilities",
-          "TpLinkFirmwareDirectory"
+          "TpLinkFirmwareDirectory",
+          "CS_CommonUtilities"
         ],
         "metadata": [
           {
@@ -38,7 +39,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-10-09T05:42:26Z"
+            "updated_at": "2025-10-18T01:25:31Z"
           },
           {
             "repo": "EasyKit",
@@ -63,6 +64,17 @@
               "windows-toolkit"
             ],
             "updated_at": "2025-10-03T22:32:07Z"
+          },
+          {
+            "repo": "PrismLauncher",
+            "name": "PrismLauncher",
+            "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
+            "html_url": "https://github.com/LoveDoLove/PrismLauncher",
+            "homepage": "https://prismlauncher.org",
+            "stargazers_count": 4,
+            "forks_count": 0,
+            "topics": [],
+            "updated_at": "2025-10-09T11:59:12Z"
           },
           {
             "repo": "cloudflare-smart-cache",
@@ -229,6 +241,34 @@
             "updated_at": "2025-08-17T08:05:01Z"
           },
           {
+            "repo": "TpLinkFirmwareDirectory",
+            "name": "TpLinkFirmwareDirectory",
+            "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
+            "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
+            "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
+            "stargazers_count": 2,
+            "forks_count": 1,
+            "topics": [
+              "automation",
+              "aws-s3",
+              "boto3",
+              "botocore",
+              "cloud-computing",
+              "cloud-storage",
+              "data-retrieval",
+              "dependency-management",
+              "file-listing",
+              "firmware",
+              "mit-license",
+              "open-source",
+              "python",
+              "software-distribution",
+              "tplink",
+              "uv"
+            ],
+            "updated_at": "2025-10-19T01:26:02Z"
+          },
+          {
             "repo": "CS_CommonUtilities",
             "name": "CS_CommonUtilities",
             "description": "A modular, production-ready C#/.NET utility library and toolkit for rapid development.",
@@ -258,34 +298,6 @@
               "utilities"
             ],
             "updated_at": "2025-10-08T05:13:09Z"
-          },
-          {
-            "repo": "TpLinkFirmwareDirectory",
-            "name": "TpLinkFirmwareDirectory",
-            "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
-            "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "stargazers_count": 2,
-            "forks_count": 1,
-            "topics": [
-              "automation",
-              "aws-s3",
-              "boto3",
-              "botocore",
-              "cloud-computing",
-              "cloud-storage",
-              "data-retrieval",
-              "dependency-management",
-              "file-listing",
-              "firmware",
-              "mit-license",
-              "open-source",
-              "python",
-              "software-distribution",
-              "tplink",
-              "uv"
-            ],
-            "updated_at": "2025-10-09T01:16:11Z"
           }
         ]
       }
