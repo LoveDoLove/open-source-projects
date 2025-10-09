@@ -6,6 +6,7 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
+          "PrismLauncher",
           "cloudflare-smart-cache",
           "Github-Profile-Manager",
           "Github-Forks-Sync-Manager",
@@ -14,8 +15,8 @@
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "CS_CommonUtilities",
-          "TpLinkFirmwareDirectory"
+          "TpLinkFirmwareDirectory",
+          "CS_CommonUtilities"
         ]
       }
     ],
