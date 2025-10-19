@@ -6,17 +6,18 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
-          "PrismLauncher",
+          "cloudflare-load-balancer",
           "cloudflare-smart-cache",
           "Github-Profile-Manager",
           "Github-Forks-Sync-Manager",
           "Github-Action-Cleaner",
+          "TpLinkFirmwareDirectory",
           "alist-freebsd",
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "TpLinkFirmwareDirectory",
-          "CS_CommonUtilities"
+          "CS_CommonUtilities",
+          "PrismLauncher"
         ]
       }
     ],
