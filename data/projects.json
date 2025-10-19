@@ -6,17 +6,18 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
-          "PrismLauncher",
+          "cloudflare-load-balancer",
           "cloudflare-smart-cache",
           "Github-Profile-Manager",
           "Github-Forks-Sync-Manager",
           "Github-Action-Cleaner",
+          "TpLinkFirmwareDirectory",
           "alist-freebsd",
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "TpLinkFirmwareDirectory",
-          "CS_CommonUtilities"
+          "CS_CommonUtilities",
+          "PrismLauncher"
         ],
         "metadata": [
           {
@@ -39,7 +40,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-10-18T01:25:31Z"
+            "updated_at": "2025-10-19T11:02:59Z"
           },
           {
             "repo": "EasyKit",
@@ -66,15 +67,26 @@
             "updated_at": "2025-10-03T22:32:07Z"
           },
           {
-            "repo": "PrismLauncher",
-            "name": "PrismLauncher",
-            "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
-            "html_url": "https://github.com/LoveDoLove/PrismLauncher",
-            "homepage": "https://prismlauncher.org",
-            "stargazers_count": 4,
+            "repo": "cloudflare-load-balancer",
+            "name": "cloudflare-load-balancer",
+            "description": "Advanced load balancer using Cloudflare Workers with weighted, backup, and disabled origin support.",
+            "html_url": "https://github.com/LoveDoLove/cloudflare-load-balancer",
+            "homepage": "",
+            "stargazers_count": 1,
             "forks_count": 0,
-            "topics": [],
-            "updated_at": "2025-10-09T11:59:12Z"
+            "topics": [
+              "cloudflare",
+              "cloudflare-workers",
+              "edge-computing",
+              "failover",
+              "http-proxy",
+              "javascript",
+              "load-balancer",
+              "serverless",
+              "weighted-routing",
+              "wrangler"
+            ],
+            "updated_at": "2025-10-16T10:41:32Z"
           },
           {
             "repo": "cloudflare-smart-cache",
@@ -168,6 +180,34 @@
             "updated_at": "2025-08-10T13:21:19Z"
           },
           {
+            "repo": "TpLinkFirmwareDirectory",
+            "name": "TpLinkFirmwareDirectory",
+            "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
+            "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
+            "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
+            "stargazers_count": 2,
+            "forks_count": 1,
+            "topics": [
+              "automation",
+              "aws-s3",
+              "boto3",
+              "botocore",
+              "cloud-computing",
+              "cloud-storage",
+              "data-retrieval",
+              "dependency-management",
+              "file-listing",
+              "firmware",
+              "mit-license",
+              "open-source",
+              "python",
+              "software-distribution",
+              "tplink",
+              "uv"
+            ],
+            "updated_at": "2025-10-19T01:26:02Z"
+          },
+          {
             "repo": "alist-freebsd",
             "name": "alist-freebsd",
             "description": "This repository provides a build wrapper and automation for compiling the upstream alist project for FreeBSD. It includes a custom build.sh script and GitHub Actions workflows to automate building and cleaning up workflow runs. The resulting binary is suitable for running on FreeBSD systems.",
@@ -241,34 +281,6 @@
             "updated_at": "2025-08-17T08:05:01Z"
           },
           {
-            "repo": "TpLinkFirmwareDirectory",
-            "name": "TpLinkFirmwareDirectory",
-            "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
-            "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "stargazers_count": 2,
-            "forks_count": 1,
-            "topics": [
-              "automation",
-              "aws-s3",
-              "boto3",
-              "botocore",
-              "cloud-computing",
-              "cloud-storage",
-              "data-retrieval",
-              "dependency-management",
-              "file-listing",
-              "firmware",
-              "mit-license",
-              "open-source",
-              "python",
-              "software-distribution",
-              "tplink",
-              "uv"
-            ],
-            "updated_at": "2025-10-19T01:26:02Z"
-          },
-          {
             "repo": "CS_CommonUtilities",
             "name": "CS_CommonUtilities",
             "description": "A modular, production-ready C#/.NET utility library and toolkit for rapid development.",
@@ -298,6 +310,17 @@
               "utilities"
             ],
             "updated_at": "2025-10-08T05:13:09Z"
+          },
+          {
+            "repo": "PrismLauncher",
+            "name": "PrismLauncher",
+            "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
+            "html_url": "https://github.com/LoveDoLove/PrismLauncher",
+            "homepage": "https://prismlauncher.org",
+            "stargazers_count": 4,
+            "forks_count": 0,
+            "topics": [],
+            "updated_at": "2025-10-09T11:59:12Z"
           }
         ]
       }
