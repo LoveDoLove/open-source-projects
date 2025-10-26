@@ -6,7 +6,6 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
-          "cloudflare-load-balancer",
           "cloudflare-smart-cache",
           "Github-Profile-Manager",
           "Github-Forks-Sync-Manager",
