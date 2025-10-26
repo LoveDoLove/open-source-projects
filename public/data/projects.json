@@ -6,7 +6,6 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
-          "cloudflare-load-balancer",
           "cloudflare-smart-cache",
           "Github-Profile-Manager",
           "Github-Forks-Sync-Manager",
@@ -40,7 +39,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-10-25T01:37:07Z"
+            "updated_at": "2025-12-12T01:49:29Z"
           },
           {
             "repo": "EasyKit",
@@ -48,7 +47,7 @@
             "description": "EasyKit is a comprehensive Windows toolkit designed specifically for web developers. It provides a unified console interface that integrates multiple development tools including Git, NPM, Composer, and Laravel Artisan, making it easier to manage web development workflows on Windows systems.",
             "html_url": "https://github.com/LoveDoLove/EasyKit",
             "homepage": "https://easykit.lovedolove.nyc.mn",
-            "stargazers_count": 3,
+            "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -64,18 +63,7 @@
               "windows-automation",
               "windows-toolkit"
             ],
-            "updated_at": "2025-10-03T22:32:07Z"
-          },
-          {
-            "repo": "cloudflare-load-balancer",
-            "name": "cloudflare-load-balancer",
-            "description": "",
-            "html_url": "",
-            "homepage": "",
-            "stargazers_count": 0,
-            "forks_count": 0,
-            "topics": [],
-            "updated_at": ""
+            "updated_at": "2025-10-26T18:12:31Z"
           },
           {
             "repo": "cloudflare-smart-cache",
@@ -194,7 +182,7 @@
               "tplink",
               "uv"
             ],
-            "updated_at": "2025-10-26T01:23:41Z"
+            "updated_at": "2025-12-13T01:21:32Z"
           },
           {
             "repo": "alist-freebsd",
@@ -245,7 +233,7 @@
               "release",
               "sysroot"
             ],
-            "updated_at": "2025-09-13T15:52:02Z"
+            "updated_at": "2025-11-09T07:19:43Z"
           },
           {
             "repo": "panindex-freebsd",
@@ -274,7 +262,7 @@
             "name": "CS_CommonUtilities",
             "description": "A modular, production-ready C#/.NET utility library and toolkit for rapid development.",
             "html_url": "https://github.com/LoveDoLove/CS_CommonUtilities",
-            "homepage": "https://github.com/LoveDoLove/CS_CommonUtilities",
+            "homepage": "https://www.nuget.org/packages/LoveDoLove.CommonUtilities/",
             "stargazers_count": 1,
             "forks_count": 0,
             "topics": [
@@ -298,7 +286,7 @@
               "stripe",
               "utilities"
             ],
-            "updated_at": "2025-10-25T16:37:13Z"
+            "updated_at": "2025-12-10T06:58:48Z"
           },
           {
             "repo": "PrismLauncher",
