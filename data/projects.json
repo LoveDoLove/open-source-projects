@@ -25,7 +25,7 @@
             "description": "The Open Source Projects Showcase is a dynamic web application designed to elegantly display and organize open source projects. Built with modern web technologies and deployed on Cloudflare Workers, this project provides a clean, responsive interface for browsing project collections.",
             "html_url": "https://github.com/LoveDoLove/open-source-projects",
             "homepage": "https://lovedolove.hidns.co",
-            "stargazers_count": 3,
+            "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
               "cloudflare-workers",
@@ -39,7 +39,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-10-26T06:59:48Z"
+            "updated_at": "2025-10-26T18:15:37Z"
           },
           {
             "repo": "EasyKit",
@@ -47,7 +47,7 @@
             "description": "EasyKit is a comprehensive Windows toolkit designed specifically for web developers. It provides a unified console interface that integrates multiple development tools including Git, NPM, Composer, and Laravel Artisan, making it easier to manage web development workflows on Windows systems.",
             "html_url": "https://github.com/LoveDoLove/EasyKit",
             "homepage": "https://easykit.lovedolove.nyc.mn",
-            "stargazers_count": 3,
+            "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -63,7 +63,7 @@
               "windows-automation",
               "windows-toolkit"
             ],
-            "updated_at": "2025-10-03T22:32:07Z"
+            "updated_at": "2025-10-26T18:12:31Z"
           },
           {
             "repo": "cloudflare-smart-cache",
@@ -182,7 +182,7 @@
               "tplink",
               "uv"
             ],
-            "updated_at": "2025-10-26T01:23:41Z"
+            "updated_at": "2025-10-27T01:25:24Z"
           },
           {
             "repo": "alist-freebsd",
@@ -286,7 +286,7 @@
               "stripe",
               "utilities"
             ],
-            "updated_at": "2025-10-25T16:37:13Z"
+            "updated_at": "2025-10-26T07:14:58Z"
           },
           {
             "repo": "PrismLauncher",
