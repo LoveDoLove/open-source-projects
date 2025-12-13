@@ -6,17 +6,18 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
+          "PrismLauncher",
           "cloudflare-smart-cache",
+          "cloudflare-load-balancer",
+          "TpLinkFirmwareDirectory",
           "Github-Profile-Manager",
           "Github-Forks-Sync-Manager",
           "Github-Action-Cleaner",
-          "TpLinkFirmwareDirectory",
           "alist-freebsd",
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "CS_CommonUtilities",
-          "PrismLauncher"
+          "CS_CommonUtilities"
         ],
         "metadata": [
           {
@@ -39,7 +40,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-12-12T01:49:29Z"
+            "updated_at": "2026-02-04T02:12:26Z"
           },
           {
             "repo": "EasyKit",
@@ -47,7 +48,7 @@
             "description": "EasyKit is a comprehensive Windows toolkit designed specifically for web developers. It provides a unified console interface that integrates multiple development tools including Git, NPM, Composer, and Laravel Artisan, making it easier to manage web development workflows on Windows systems.",
             "html_url": "https://github.com/LoveDoLove/EasyKit",
             "homepage": "https://easykit.lovedolove.nyc.mn",
-            "stargazers_count": 2,
+            "stargazers_count": 3,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -63,7 +64,18 @@
               "windows-automation",
               "windows-toolkit"
             ],
-            "updated_at": "2025-10-26T18:12:31Z"
+            "updated_at": "2026-01-09T23:57:54Z"
+          },
+          {
+            "repo": "PrismLauncher",
+            "name": "PrismLauncher",
+            "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
+            "html_url": "https://github.com/LoveDoLove/PrismLauncher",
+            "homepage": "https://prismlauncher.org",
+            "stargazers_count": 4,
+            "forks_count": 0,
+            "topics": [],
+            "updated_at": "2025-10-09T11:59:12Z"
           },
           {
             "repo": "cloudflare-smart-cache",
@@ -71,7 +83,7 @@
             "description": "Powerful all-in-one Cloudflare cache solution for WordPress: edge HTML caching, automatic purging, advanced admin controls, API token support, and comprehensive logging.",
             "html_url": "https://github.com/LoveDoLove/cloudflare-smart-cache",
             "homepage": "https://cf-smart-cache.lovedolove.nyc.mn",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
               "admin",
@@ -86,7 +98,57 @@
               "rate-limiting",
               "wordpress-plugin"
             ],
-            "updated_at": "2025-10-03T22:33:00Z"
+            "updated_at": "2026-01-09T23:59:14Z"
+          },
+          {
+            "repo": "cloudflare-load-balancer",
+            "name": "cloudflare-load-balancer",
+            "description": "This project provides a robust, production-ready Cloudflare Worker that acts as a high-performance HTTP load balancer. It allows you to distribute traffic across multiple origin servers based on configurable weights, with built-in support for failover to backup servers and maintenance modes.",
+            "html_url": "https://github.com/LoveDoLove/cloudflare-load-balancer",
+            "homepage": "",
+            "stargazers_count": 2,
+            "forks_count": 1,
+            "topics": [
+              "cloudflare",
+              "cloudflare-workers",
+              "edge-computing",
+              "failover",
+              "http-proxy",
+              "javascript",
+              "load-balancer",
+              "serverless",
+              "weighted-routing",
+              "wrangler"
+            ],
+            "updated_at": "2026-01-19T16:41:00Z"
+          },
+          {
+            "repo": "TpLinkFirmwareDirectory",
+            "name": "TpLinkFirmwareDirectory",
+            "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
+            "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
+            "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
+            "stargazers_count": 2,
+            "forks_count": 1,
+            "topics": [
+              "automation",
+              "aws-s3",
+              "boto3",
+              "botocore",
+              "cloud-computing",
+              "cloud-storage",
+              "data-retrieval",
+              "dependency-management",
+              "file-listing",
+              "firmware",
+              "mit-license",
+              "open-source",
+              "python",
+              "software-distribution",
+              "tplink",
+              "uv"
+            ],
+            "updated_at": "2026-02-05T01:56:12Z"
           },
           {
             "repo": "Github-Profile-Manager",
@@ -155,34 +217,6 @@
               "workflow-cleanup"
             ],
             "updated_at": "2025-08-10T13:21:19Z"
-          },
-          {
-            "repo": "TpLinkFirmwareDirectory",
-            "name": "TpLinkFirmwareDirectory",
-            "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
-            "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "stargazers_count": 2,
-            "forks_count": 1,
-            "topics": [
-              "automation",
-              "aws-s3",
-              "boto3",
-              "botocore",
-              "cloud-computing",
-              "cloud-storage",
-              "data-retrieval",
-              "dependency-management",
-              "file-listing",
-              "firmware",
-              "mit-license",
-              "open-source",
-              "python",
-              "software-distribution",
-              "tplink",
-              "uv"
-            ],
-            "updated_at": "2025-12-13T01:21:32Z"
           },
           {
             "repo": "alist-freebsd",
@@ -287,17 +321,6 @@
               "utilities"
             ],
             "updated_at": "2025-12-10T06:58:48Z"
-          },
-          {
-            "repo": "PrismLauncher",
-            "name": "PrismLauncher",
-            "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
-            "html_url": "https://github.com/LoveDoLove/PrismLauncher",
-            "homepage": "https://prismlauncher.org",
-            "stargazers_count": 4,
-            "forks_count": 0,
-            "topics": [],
-            "updated_at": "2025-10-09T11:59:12Z"
           }
         ]
       }
