@@ -6,17 +6,18 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
+          "PrismLauncher",
           "cloudflare-smart-cache",
+          "cloudflare-load-balancer",
+          "TpLinkFirmwareDirectory",
           "Github-Profile-Manager",
           "Github-Forks-Sync-Manager",
           "Github-Action-Cleaner",
-          "TpLinkFirmwareDirectory",
           "alist-freebsd",
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "CS_CommonUtilities",
-          "PrismLauncher"
+          "CS_CommonUtilities"
         ],
         "metadata": [
           {
@@ -39,7 +40,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-12-12T01:49:29Z"
+            "updated_at": "2025-12-13T10:39:46Z"
           },
           {
             "repo": "EasyKit",
@@ -66,6 +67,17 @@
             "updated_at": "2025-10-26T18:12:31Z"
           },
           {
+            "repo": "PrismLauncher",
+            "name": "PrismLauncher",
+            "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
+            "html_url": "https://github.com/LoveDoLove/PrismLauncher",
+            "homepage": "https://prismlauncher.org",
+            "stargazers_count": 4,
+            "forks_count": 0,
+            "topics": [],
+            "updated_at": "2025-10-09T11:59:12Z"
+          },
+          {
             "repo": "cloudflare-smart-cache",
             "name": "cloudflare-smart-cache",
             "description": "Powerful all-in-one Cloudflare cache solution for WordPress: edge HTML caching, automatic purging, advanced admin controls, API token support, and comprehensive logging.",
@@ -87,6 +99,56 @@
               "wordpress-plugin"
             ],
             "updated_at": "2025-10-03T22:33:00Z"
+          },
+          {
+            "repo": "cloudflare-load-balancer",
+            "name": "cloudflare-load-balancer",
+            "description": "This repository contains a Cloudflare Worker that implements an advanced HTTP load balancer. It proxies requests to multiple origin servers and includes features useful for production deployments.",
+            "html_url": "https://github.com/LoveDoLove/cloudflare-load-balancer",
+            "homepage": "",
+            "stargazers_count": 1,
+            "forks_count": 1,
+            "topics": [
+              "cloudflare",
+              "cloudflare-workers",
+              "edge-computing",
+              "failover",
+              "http-proxy",
+              "javascript",
+              "load-balancer",
+              "serverless",
+              "weighted-routing",
+              "wrangler"
+            ],
+            "updated_at": "2025-12-09T07:37:11Z"
+          },
+          {
+            "repo": "TpLinkFirmwareDirectory",
+            "name": "TpLinkFirmwareDirectory",
+            "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
+            "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
+            "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
+            "stargazers_count": 2,
+            "forks_count": 1,
+            "topics": [
+              "automation",
+              "aws-s3",
+              "boto3",
+              "botocore",
+              "cloud-computing",
+              "cloud-storage",
+              "data-retrieval",
+              "dependency-management",
+              "file-listing",
+              "firmware",
+              "mit-license",
+              "open-source",
+              "python",
+              "software-distribution",
+              "tplink",
+              "uv"
+            ],
+            "updated_at": "2025-12-13T01:21:32Z"
           },
           {
             "repo": "Github-Profile-Manager",
@@ -155,34 +217,6 @@
               "workflow-cleanup"
             ],
             "updated_at": "2025-08-10T13:21:19Z"
-          },
-          {
-            "repo": "TpLinkFirmwareDirectory",
-            "name": "TpLinkFirmwareDirectory",
-            "description": "This project provides a searchable list of all keys for software downloadable from download.tplinkcloud.com. It uses a Python script to list all objects in the public S3 bucket and saves them to all_keys.txt for convenience and reference.",
-            "html_url": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "homepage": "https://github.com/LoveDoLove/TpLinkFirmwareDirectory",
-            "stargazers_count": 2,
-            "forks_count": 1,
-            "topics": [
-              "automation",
-              "aws-s3",
-              "boto3",
-              "botocore",
-              "cloud-computing",
-              "cloud-storage",
-              "data-retrieval",
-              "dependency-management",
-              "file-listing",
-              "firmware",
-              "mit-license",
-              "open-source",
-              "python",
-              "software-distribution",
-              "tplink",
-              "uv"
-            ],
-            "updated_at": "2025-12-13T01:21:32Z"
           },
           {
             "repo": "alist-freebsd",
@@ -287,17 +321,6 @@
               "utilities"
             ],
             "updated_at": "2025-12-10T06:58:48Z"
-          },
-          {
-            "repo": "PrismLauncher",
-            "name": "PrismLauncher",
-            "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
-            "html_url": "https://github.com/LoveDoLove/PrismLauncher",
-            "homepage": "https://prismlauncher.org",
-            "stargazers_count": 4,
-            "forks_count": 0,
-            "topics": [],
-            "updated_at": "2025-10-09T11:59:12Z"
           }
         ]
       }
