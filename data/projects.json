@@ -40,7 +40,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2025-12-18T01:46:08Z"
+            "updated_at": "2025-12-19T01:49:37Z"
           },
           {
             "repo": "EasyKit",
@@ -148,7 +148,7 @@
               "tplink",
               "uv"
             ],
-            "updated_at": "2025-12-19T01:26:11Z"
+            "updated_at": "2025-12-20T01:22:09Z"
           },
           {
             "repo": "Github-Profile-Manager",
@@ -245,46 +245,82 @@
           {
             "repo": "memos-freebsd",
             "name": "memos-freebsd",
-            "description": "",
-            "html_url": "",
-            "homepage": "",
-            "stargazers_count": 0,
+            "description": "This project provides a FreeBSD-compatible build and porting scripts for the memos self-hosted knowledge base server. It enables building and running memos natively on FreeBSD systems using cross-compilation and custom build tooling.",
+            "html_url": "https://github.com/LoveDoLove/memos-freebsd",
+            "homepage": "https://github.com/LoveDoLove/memos-freebsd",
+            "stargazers_count": 1,
             "forks_count": 0,
-            "topics": [],
-            "updated_at": ""
+            "topics": [
+              "automation",
+              "binary",
+              "build-pipeline",
+              "ci-cd",
+              "clang",
+              "cross-compilation",
+              "freebsd",
+              "github-actions",
+              "go",
+              "golang",
+              "memos",
+              "note-taking",
+              "open-source",
+              "release",
+              "sysroot"
+            ],
+            "updated_at": "2025-11-09T07:19:43Z"
           },
           {
             "repo": "panindex-freebsd",
             "name": "panindex-freebsd",
-            "description": "",
-            "html_url": "",
-            "homepage": "",
-            "stargazers_count": 0,
-            "forks_count": 0,
+            "description": "PanIndex FreeBSD provides scripts and automation to build the PanIndex file indexing and sharing server for FreeBSD. It fetches the latest upstream release, configures the build environment, and produces FreeBSD-compatible binaries. This project is not the original PanIndex, but a downstream build/packaging effort for FreeBSD users.",
+            "html_url": "https://github.com/LoveDoLove/panindex-freebsd",
+            "homepage": "https://github.com/LoveDoLove/panindex-freebsd",
+            "stargazers_count": 1,
+            "forks_count": 1,
             "topics": [],
-            "updated_at": ""
+            "updated_at": "2025-08-17T08:05:25Z"
           },
           {
             "repo": "cloudreve-freebsd",
             "name": "cloudreve-freebsd",
-            "description": "",
-            "html_url": "",
-            "homepage": "",
-            "stargazers_count": 0,
+            "description": "This project provides scripts and GitHub Actions workflows to automate the process of building and packaging the Cloudreve cloud storage system for FreeBSD (amd64). It is not the main Cloudreve repository, but a community-maintained solution for producing up-to-date FreeBSD binaries and release packages.",
+            "html_url": "https://github.com/LoveDoLove/cloudreve-freebsd",
+            "homepage": "https://github.com/LoveDoLove/cloudreve-freebsd",
+            "stargazers_count": 1,
             "forks_count": 0,
             "topics": [],
-            "updated_at": ""
+            "updated_at": "2025-08-17T08:05:01Z"
           },
           {
             "repo": "CS_CommonUtilities",
             "name": "CS_CommonUtilities",
-            "description": "",
-            "html_url": "",
-            "homepage": "",
-            "stargazers_count": 0,
+            "description": "A modular, production-ready C#/.NET utility library and toolkit for rapid development.",
+            "html_url": "https://github.com/LoveDoLove/CS_CommonUtilities",
+            "homepage": "https://www.nuget.org/packages/LoveDoLove.CommonUtilities/",
+            "stargazers_count": 1,
             "forks_count": 0,
-            "topics": [],
-            "updated_at": ""
+            "topics": [
+              "captcha",
+              "common-utilities",
+              "configuration",
+              "csharp",
+              "database",
+              "dotnet",
+              "helper-library",
+              "http",
+              "image-processing",
+              "library",
+              "logging",
+              "mailer",
+              "net8",
+              "qr-code",
+              "reusable-components",
+              "scheduler",
+              "security",
+              "stripe",
+              "utilities"
+            ],
+            "updated_at": "2025-12-10T06:58:48Z"
           }
         ]
       }
