@@ -17,7 +17,9 @@
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "CS_CommonUtilities"
+          "SuperGit-Tools",
+          "CS_CommonUtilities",
+          "cursor-free-vip"
         ]
       }
     ],

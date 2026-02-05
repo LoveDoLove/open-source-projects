@@ -8,10 +8,10 @@
 		"start": "wrangler dev"
 	},
 	"devDependencies": {
-		"wrangler": "^4.33.0"
+		"wrangler": "^4.63.0"
 	}
   ,
   "dependencies": {
-    "node-fetch": "^3.0.0"
+    "node-fetch": "^3.3.2"
   }
 }
