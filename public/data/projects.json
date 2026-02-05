@@ -17,7 +17,9 @@
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "CS_CommonUtilities"
+          "SuperGit-Tools",
+          "CS_CommonUtilities",
+          "cursor-free-vip"
         ],
         "metadata": [
           {
@@ -40,7 +42,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-02-04T02:12:26Z"
+            "updated_at": "2026-02-05T15:05:02Z"
           },
           {
             "repo": "EasyKit",
@@ -292,6 +294,34 @@
             "updated_at": "2025-08-17T08:05:01Z"
           },
           {
+            "repo": "SuperGit-Tools",
+            "name": "SuperGit-Tools",
+            "description": "SuperGit-Tools is designed to solve the headache of managing multiple local Git repositories. Whether you have 5 or 50 projects, keeping them all synchronized can be tedious.",
+            "html_url": "https://github.com/LoveDoLove/SuperGit-Tools",
+            "homepage": "https://github.com/LoveDoLove/SuperGit-Tools",
+            "stargazers_count": 1,
+            "forks_count": 0,
+            "topics": [
+              "automation",
+              "cli",
+              "developer-tools",
+              "dotnet",
+              "git",
+              "git-automation",
+              "git-gui",
+              "git-tools",
+              "powershell",
+              "productivity",
+              "repository-management",
+              "scripting",
+              "sync",
+              "windows",
+              "wpf",
+              "xaml"
+            ],
+            "updated_at": "2026-02-02T13:15:12Z"
+          },
+          {
             "repo": "CS_CommonUtilities",
             "name": "CS_CommonUtilities",
             "description": "A modular, production-ready C#/.NET utility library and toolkit for rapid development.",
@@ -321,6 +351,17 @@
               "utilities"
             ],
             "updated_at": "2025-12-10T06:58:48Z"
+          },
+          {
+            "repo": "cursor-free-vip",
+            "name": "cursor-free-vip",
+            "description": "[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.",
+            "html_url": "https://github.com/LoveDoLove/cursor-free-vip",
+            "homepage": "https://www.cursor.com/",
+            "stargazers_count": 2,
+            "forks_count": 0,
+            "topics": [],
+            "updated_at": "2026-01-28T12:49:07Z"
           }
         ]
       }
