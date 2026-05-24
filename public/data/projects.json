@@ -6,6 +6,9 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
+          "RemoteRun",
+          "LDLWinToolBox",
+          "SuperGit-Tools",
           "PrismLauncher",
           "cloudflare-smart-cache",
           "cloudflare-load-balancer",
@@ -17,7 +20,6 @@
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "SuperGit-Tools",
           "CS_CommonUtilities",
           "cursor-free-vip"
         ],
@@ -42,7 +44,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-05-23T03:28:20Z"
+            "updated_at": "2026-05-24T12:51:08Z"
           },
           {
             "repo": "EasyKit",
@@ -67,6 +69,91 @@
               "windows-toolkit"
             ],
             "updated_at": "2026-01-09T23:57:54Z"
+          },
+          {
+            "repo": "RemoteRun",
+            "name": "RemoteRun",
+            "description": "Lightweight .NET 8 Windows utility to run programs as NT AUTHORITY\\\\SYSTEM locally or remotely.",
+            "html_url": "https://github.com/LoveDoLove/RemoteRun",
+            "homepage": "https://github.com/LoveDoLove/RemoteRun",
+            "stargazers_count": 1,
+            "forks_count": 0,
+            "topics": [
+              "automation",
+              "background-service",
+              "cli",
+              "csharp",
+              "dotnet",
+              "dotnet-8",
+              "inno-setup",
+              "installer",
+              "installer-script",
+              "native",
+              "net8",
+              "remote-execution",
+              "remote-run",
+              "runner",
+              "service-runner",
+              "service-worker",
+              "tooling",
+              "winapi",
+              "windows",
+              "windows-service"
+            ],
+            "updated_at": "2026-03-21T06:08:52Z"
+          },
+          {
+            "repo": "LDLWinToolBox",
+            "name": "LDLWinToolBox",
+            "description": "A cohesive, menu-driven Windows Batch utility that safely automates advanced system cleanup, integrity repair, components update, and NVMe SSD optimizations.",
+            "html_url": "https://github.com/LoveDoLove/LDLWinToolBox",
+            "homepage": "https://github.com/LoveDoLove/LDLWinToolBox",
+            "stargazers_count": 1,
+            "forks_count": 0,
+            "topics": [
+              "automation",
+              "batch-script",
+              "cleaner",
+              "dism",
+              "maintenance",
+              "optimization",
+              "powershell",
+              "ssd-trim",
+              "system-utility",
+              "windows",
+              "windows-10",
+              "windows-11",
+              "winget"
+            ],
+            "updated_at": "2026-02-20T14:58:15Z"
+          },
+          {
+            "repo": "SuperGit-Tools",
+            "name": "SuperGit-Tools",
+            "description": "SuperGit-Tools is designed to solve the headache of managing multiple local Git repositories. Whether you have 5 or 50 projects, keeping them all synchronized can be tedious.",
+            "html_url": "https://github.com/LoveDoLove/SuperGit-Tools",
+            "homepage": "https://github.com/LoveDoLove/SuperGit-Tools",
+            "stargazers_count": 1,
+            "forks_count": 0,
+            "topics": [
+              "automation",
+              "cli",
+              "developer-tools",
+              "dotnet",
+              "git",
+              "git-automation",
+              "git-gui",
+              "git-tools",
+              "powershell",
+              "productivity",
+              "repository-management",
+              "scripting",
+              "sync",
+              "windows",
+              "wpf",
+              "xaml"
+            ],
+            "updated_at": "2026-02-02T13:15:12Z"
           },
           {
             "repo": "PrismLauncher",
@@ -292,34 +379,6 @@
             "forks_count": 0,
             "topics": [],
             "updated_at": "2025-08-17T08:05:01Z"
-          },
-          {
-            "repo": "SuperGit-Tools",
-            "name": "SuperGit-Tools",
-            "description": "SuperGit-Tools is designed to solve the headache of managing multiple local Git repositories. Whether you have 5 or 50 projects, keeping them all synchronized can be tedious.",
-            "html_url": "https://github.com/LoveDoLove/SuperGit-Tools",
-            "homepage": "https://github.com/LoveDoLove/SuperGit-Tools",
-            "stargazers_count": 1,
-            "forks_count": 0,
-            "topics": [
-              "automation",
-              "cli",
-              "developer-tools",
-              "dotnet",
-              "git",
-              "git-automation",
-              "git-gui",
-              "git-tools",
-              "powershell",
-              "productivity",
-              "repository-management",
-              "scripting",
-              "sync",
-              "windows",
-              "wpf",
-              "xaml"
-            ],
-            "updated_at": "2026-02-02T13:15:12Z"
           },
           {
             "repo": "CS_CommonUtilities",
