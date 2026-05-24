@@ -6,6 +6,9 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
+          "RemoteRun",
+          "LDLWinToolBox",
+          "SuperGit-Tools",
           "PrismLauncher",
           "cloudflare-smart-cache",
           "cloudflare-load-balancer",
@@ -17,7 +20,6 @@
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "SuperGit-Tools",
           "CS_CommonUtilities",
           "cursor-free-vip"
         ],
@@ -28,8 +30,8 @@
             "description": "The Open Source Projects Showcase is a dynamic web application designed to elegantly display and organize open source projects. Built with modern web technologies and deployed on Cloudflare Workers, this project provides a clean, responsive interface for browsing project collections.",
             "html_url": "https://github.com/LoveDoLove/open-source-projects",
             "homepage": "https://lovedolove.hidns.co",
-            "stargazers_count": 2,
-            "forks_count": 0,
+            "stargazers_count": 3,
+            "forks_count": 1,
             "topics": [
               "cloudflare-workers",
               "css3",
@@ -42,7 +44,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-05-23T03:28:20Z"
+            "updated_at": "2026-08-12T02:03:09Z"
           },
           {
             "repo": "EasyKit",
@@ -69,6 +71,91 @@
             "updated_at": "2026-01-09T23:57:54Z"
           },
           {
+            "repo": "RemoteRun",
+            "name": "RemoteRun",
+            "description": "Lightweight .NET 8 Windows utility to run programs as NT AUTHORITY\\\\SYSTEM locally or remotely.",
+            "html_url": "https://github.com/LoveDoLove/RemoteRun",
+            "homepage": "https://github.com/LoveDoLove/RemoteRun",
+            "stargazers_count": 2,
+            "forks_count": 0,
+            "topics": [
+              "automation",
+              "background-service",
+              "cli",
+              "csharp",
+              "dotnet",
+              "dotnet-8",
+              "inno-setup",
+              "installer",
+              "installer-script",
+              "native",
+              "net8",
+              "remote-execution",
+              "remote-run",
+              "runner",
+              "service-runner",
+              "service-worker",
+              "tooling",
+              "winapi",
+              "windows",
+              "windows-service"
+            ],
+            "updated_at": "2026-07-04T16:34:04Z"
+          },
+          {
+            "repo": "LDLWinToolBox",
+            "name": "LDLWinToolBox",
+            "description": "A cohesive, menu-driven Windows Batch utility that safely automates advanced system cleanup, integrity repair, components update, and NVMe SSD optimizations.",
+            "html_url": "https://github.com/LoveDoLove/LDLWinToolBox",
+            "homepage": "https://github.com/LoveDoLove/LDLWinToolBox",
+            "stargazers_count": 1,
+            "forks_count": 0,
+            "topics": [
+              "automation",
+              "batch-script",
+              "cleaner",
+              "dism",
+              "maintenance",
+              "optimization",
+              "powershell",
+              "ssd-trim",
+              "system-utility",
+              "windows",
+              "windows-10",
+              "windows-11",
+              "winget"
+            ],
+            "updated_at": "2026-07-05T07:54:30Z"
+          },
+          {
+            "repo": "SuperGit-Tools",
+            "name": "SuperGit-Tools",
+            "description": "SuperGit-Tools is designed to solve the headache of managing multiple local Git repositories. Whether you have 5 or 50 projects, keeping them all synchronized can be tedious.",
+            "html_url": "https://github.com/LoveDoLove/SuperGit-Tools",
+            "homepage": "https://github.com/LoveDoLove/SuperGit-Tools",
+            "stargazers_count": 1,
+            "forks_count": 0,
+            "topics": [
+              "automation",
+              "cli",
+              "developer-tools",
+              "dotnet",
+              "git",
+              "git-automation",
+              "git-gui",
+              "git-tools",
+              "powershell",
+              "productivity",
+              "repository-management",
+              "scripting",
+              "sync",
+              "windows",
+              "wpf",
+              "xaml"
+            ],
+            "updated_at": "2026-02-02T13:15:12Z"
+          },
+          {
             "repo": "PrismLauncher",
             "name": "PrismLauncher",
             "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
@@ -77,12 +164,12 @@
             "stargazers_count": 4,
             "forks_count": 0,
             "topics": [],
-            "updated_at": "2026-04-04T02:53:55Z"
+            "updated_at": "2026-07-17T15:40:11Z"
           },
           {
             "repo": "cloudflare-smart-cache",
             "name": "cloudflare-smart-cache",
-            "description": "Powerful all-in-one Cloudflare cache solution for WordPress: edge HTML caching, automatic purging, advanced admin controls, API token support, and comprehensive logging.",
+            "description": "Powerful all-in-one Cloudflare cache solution for WordPress: edge HTML caching, automatic purging, AJAX admin controls, API token support, and comprehensive logging.",
             "html_url": "https://github.com/LoveDoLove/cloudflare-smart-cache",
             "homepage": "https://cf-smart-cache.lovedolove.nyc.mn",
             "stargazers_count": 2,
@@ -100,7 +187,7 @@
               "rate-limiting",
               "wordpress-plugin"
             ],
-            "updated_at": "2026-01-09T23:59:14Z"
+            "updated_at": "2026-07-15T13:01:59Z"
           },
           {
             "repo": "cloudflare-load-balancer",
@@ -108,7 +195,7 @@
             "description": "This project provides a robust, production-ready Cloudflare Worker that acts as a high-performance HTTP load balancer. It allows you to distribute traffic across multiple origin servers based on configurable weights, with built-in support for failover to backup servers and maintenance modes.",
             "html_url": "https://github.com/LoveDoLove/cloudflare-load-balancer",
             "homepage": "",
-            "stargazers_count": 3,
+            "stargazers_count": 4,
             "forks_count": 1,
             "topics": [
               "cloudflare",
@@ -122,7 +209,7 @@
               "weighted-routing",
               "wrangler"
             ],
-            "updated_at": "2026-05-12T21:56:08Z"
+            "updated_at": "2026-08-01T15:40:55Z"
           },
           {
             "repo": "TpLinkFirmwareDirectory",
@@ -150,7 +237,7 @@
               "tplink",
               "uv"
             ],
-            "updated_at": "2026-05-24T03:24:53Z"
+            "updated_at": "2026-06-07T07:50:40Z"
           },
           {
             "repo": "Github-Profile-Manager",
@@ -195,7 +282,7 @@
               "sync",
               "workflow"
             ],
-            "updated_at": "2025-08-14T10:07:42Z"
+            "updated_at": "2026-07-15T14:21:02Z"
           },
           {
             "repo": "Github-Action-Cleaner",
@@ -294,34 +381,6 @@
             "updated_at": "2025-08-17T08:05:01Z"
           },
           {
-            "repo": "SuperGit-Tools",
-            "name": "SuperGit-Tools",
-            "description": "SuperGit-Tools is designed to solve the headache of managing multiple local Git repositories. Whether you have 5 or 50 projects, keeping them all synchronized can be tedious.",
-            "html_url": "https://github.com/LoveDoLove/SuperGit-Tools",
-            "homepage": "https://github.com/LoveDoLove/SuperGit-Tools",
-            "stargazers_count": 1,
-            "forks_count": 0,
-            "topics": [
-              "automation",
-              "cli",
-              "developer-tools",
-              "dotnet",
-              "git",
-              "git-automation",
-              "git-gui",
-              "git-tools",
-              "powershell",
-              "productivity",
-              "repository-management",
-              "scripting",
-              "sync",
-              "windows",
-              "wpf",
-              "xaml"
-            ],
-            "updated_at": "2026-02-02T13:15:12Z"
-          },
-          {
             "repo": "CS_CommonUtilities",
             "name": "CS_CommonUtilities",
             "description": "A modular, production-ready C#/.NET utility library and toolkit for rapid development.",
@@ -359,7 +418,7 @@
             "html_url": "https://github.com/LoveDoLove/cursor-free-vip",
             "homepage": "https://www.cursor.com/",
             "stargazers_count": 2,
-            "forks_count": 0,
+            "forks_count": 1,
             "topics": [],
             "updated_at": "2026-01-28T12:49:07Z"
           }

@@ -6,6 +6,9 @@
         "projects": [
           "open-source-projects",
           "EasyKit",
+          "RemoteRun",
+          "LDLWinToolBox",
+          "SuperGit-Tools",
           "PrismLauncher",
           "cloudflare-smart-cache",
           "cloudflare-load-balancer",
@@ -17,7 +20,6 @@
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "SuperGit-Tools",
           "CS_CommonUtilities",
           "cursor-free-vip"
         ]
