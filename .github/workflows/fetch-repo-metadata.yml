@@ -14,6 +14,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -26,8 +29,27 @@ jobs:
       - name: Run metadata fetch script
         run: node scripts/fetchRepoMetadata.js
 
-      - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "Update public/data/projects.json with latest repo metadata"
-          add: "public/data/projects.json"
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Stage metadata file
+        run: |
+          git add public/data/projects.json || true
+          # If there are no staged changes, exit successfully to avoid creating empty commits
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+      - name: Commit metadata update
+        run: |
+          git commit -m "Update public/data/projects.json with latest repo metadata"
+
+      - name: Force-push update to dedicated branch
+        env:
+          UPDATE_BRANCH: auto/update-projects
+        run: |
+          # Push the current HEAD to a dedicated branch and force update it so history stays small
+          git push origin HEAD:refs/heads/${UPDATE_BRANCH} --force-with-lease
