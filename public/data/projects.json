@@ -44,7 +44,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-08-04T02:39:46Z"
+            "updated_at": "2026-08-05T02:37:41Z"
           },
           {
             "repo": "EasyKit",
@@ -361,46 +361,66 @@
           {
             "repo": "panindex-freebsd",
             "name": "panindex-freebsd",
-            "description": "",
-            "html_url": "",
-            "homepage": "",
-            "stargazers_count": 0,
-            "forks_count": 0,
+            "description": "PanIndex FreeBSD provides scripts and automation to build the PanIndex file indexing and sharing server for FreeBSD. It fetches the latest upstream release, configures the build environment, and produces FreeBSD-compatible binaries. This project is not the original PanIndex, but a downstream build/packaging effort for FreeBSD users.",
+            "html_url": "https://github.com/LoveDoLove/panindex-freebsd",
+            "homepage": "https://github.com/LoveDoLove/panindex-freebsd",
+            "stargazers_count": 1,
+            "forks_count": 1,
             "topics": [],
-            "updated_at": ""
+            "updated_at": "2025-08-17T08:05:25Z"
           },
           {
             "repo": "cloudreve-freebsd",
             "name": "cloudreve-freebsd",
-            "description": "",
-            "html_url": "",
-            "homepage": "",
-            "stargazers_count": 0,
+            "description": "This project provides scripts and GitHub Actions workflows to automate the process of building and packaging the Cloudreve cloud storage system for FreeBSD (amd64). It is not the main Cloudreve repository, but a community-maintained solution for producing up-to-date FreeBSD binaries and release packages.",
+            "html_url": "https://github.com/LoveDoLove/cloudreve-freebsd",
+            "homepage": "https://github.com/LoveDoLove/cloudreve-freebsd",
+            "stargazers_count": 1,
             "forks_count": 0,
             "topics": [],
-            "updated_at": ""
+            "updated_at": "2025-08-17T08:05:01Z"
           },
           {
             "repo": "CS_CommonUtilities",
             "name": "CS_CommonUtilities",
-            "description": "",
-            "html_url": "",
-            "homepage": "",
-            "stargazers_count": 0,
+            "description": "A modular, production-ready C#/.NET utility library and toolkit for rapid development.",
+            "html_url": "https://github.com/LoveDoLove/CS_CommonUtilities",
+            "homepage": "https://www.nuget.org/packages/LoveDoLove.CommonUtilities/",
+            "stargazers_count": 2,
             "forks_count": 0,
-            "topics": [],
-            "updated_at": ""
+            "topics": [
+              "captcha",
+              "common-utilities",
+              "configuration",
+              "csharp",
+              "database",
+              "dotnet",
+              "helper-library",
+              "http",
+              "image-processing",
+              "library",
+              "logging",
+              "mailer",
+              "net8",
+              "qr-code",
+              "reusable-components",
+              "scheduler",
+              "security",
+              "stripe",
+              "utilities"
+            ],
+            "updated_at": "2026-03-15T13:31:55Z"
           },
           {
             "repo": "cursor-free-vip",
             "name": "cursor-free-vip",
-            "description": "",
-            "html_url": "",
-            "homepage": "",
-            "stargazers_count": 0,
-            "forks_count": 0,
+            "description": "[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.",
+            "html_url": "https://github.com/LoveDoLove/cursor-free-vip",
+            "homepage": "https://www.cursor.com/",
+            "stargazers_count": 2,
+            "forks_count": 1,
             "topics": [],
-            "updated_at": ""
+            "updated_at": "2026-01-28T12:49:07Z"
           }
         ]
       }
