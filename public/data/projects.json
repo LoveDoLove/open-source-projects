@@ -30,7 +30,7 @@
             "description": "The Open Source Projects Showcase is a dynamic web application designed to elegantly display and organize open source projects. Built with modern web technologies and deployed on Cloudflare Workers, this project provides a clean, responsive interface for browsing project collections.",
             "html_url": "https://github.com/LoveDoLove/open-source-projects",
             "homepage": "https://lovedolove.hidns.co",
-            "stargazers_count": 3,
+            "stargazers_count": 4,
             "forks_count": 1,
             "topics": [
               "cloudflare-workers",
@@ -44,7 +44,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-08-12T02:03:09Z"
+            "updated_at": "2026-08-29T06:05:36Z"
           },
           {
             "repo": "EasyKit",
@@ -164,7 +164,7 @@
             "stargazers_count": 4,
             "forks_count": 0,
             "topics": [],
-            "updated_at": "2026-07-17T15:40:11Z"
+            "updated_at": "2026-08-15T16:27:47Z"
           },
           {
             "repo": "cloudflare-smart-cache",
@@ -195,7 +195,7 @@
             "description": "This project provides a robust, production-ready Cloudflare Worker that acts as a high-performance HTTP load balancer. It allows you to distribute traffic across multiple origin servers based on configurable weights, with built-in support for failover to backup servers and maintenance modes.",
             "html_url": "https://github.com/LoveDoLove/cloudflare-load-balancer",
             "homepage": "",
-            "stargazers_count": 4,
+            "stargazers_count": 5,
             "forks_count": 1,
             "topics": [
               "cloudflare",
@@ -209,7 +209,7 @@
               "weighted-routing",
               "wrangler"
             ],
-            "updated_at": "2026-08-01T15:40:55Z"
+            "updated_at": "2026-08-22T11:25:15Z"
           },
           {
             "repo": "TpLinkFirmwareDirectory",
