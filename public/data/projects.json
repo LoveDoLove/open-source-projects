@@ -44,7 +44,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-08-20T18:26:07Z"
+            "updated_at": "2026-08-21T01:21:59Z"
           },
           {
             "repo": "EasyKit",
@@ -169,25 +169,13 @@
           {
             "repo": "cloudflare-smart-cache",
             "name": "cloudflare-smart-cache",
-            "description": "Powerful all-in-one Cloudflare cache solution for WordPress: edge HTML caching, automatic purging, AJAX admin controls, API token support, and comprehensive logging.",
-            "html_url": "https://github.com/LoveDoLove/cloudflare-smart-cache",
-            "homepage": "https://cf-smart-cache.lovedolove.nyc.mn",
-            "stargazers_count": 2,
+            "description": "",
+            "html_url": "",
+            "homepage": "",
+            "stargazers_count": 0,
             "forks_count": 0,
-            "topics": [
-              "admin",
-              "api",
-              "batch-processing",
-              "cache-purging",
-              "caching",
-              "cloudflare",
-              "edge-caching",
-              "logging",
-              "php",
-              "rate-limiting",
-              "wordpress-plugin"
-            ],
-            "updated_at": "2026-07-15T13:01:59Z"
+            "topics": [],
+            "updated_at": ""
           },
           {
             "repo": "cloudflare-load-balancer",
