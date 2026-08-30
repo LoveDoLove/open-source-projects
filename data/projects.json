@@ -4,15 +4,11 @@
       {
         "username": "LoveDoLove",
         "projects": [
+          "Project-Memory-Agent",
           "open-source-projects",
-          "EasyKit",
+          "cf-best-domain",
+          "vps-scripts",
           "RemoteRun",
-          "LDLWinToolBox",
-          "SuperGit-Tools",
-          "PrismLauncher",
-          "cloudflare-smart-cache",
-          "cloudflare-load-balancer",
-          "TpLinkFirmwareDirectory",
           "Github-Profile-Manager",
           "Github-Forks-Sync-Manager",
           "Github-Action-Cleaner",
@@ -20,8 +16,13 @@
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "CS_CommonUtilities",
-          "cursor-free-vip"
+          "EasyKit",
+          "LDLWinToolBox",
+          "SuperGit-Tools",
+          "PrismLauncher",
+          "cloudflare-edge-commander",
+          "cloudflare-smart-cache",
+          "cloudflare-load-balancer"
         ]
       }
     ],
