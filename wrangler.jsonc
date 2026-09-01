@@ -5,10 +5,12 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "open-source-projects",
+	"main": "src/index.js",
 	"compatibility_date": "2025-08-28",
 	"assets": {
 		// The path to the directory containing the `index.html` file to be served at `/`
-		"directory": "./public"
+		"directory": "./public",
+		"binding": "ASSETS"
 	},
 	"observability": {
 		"enabled": true
