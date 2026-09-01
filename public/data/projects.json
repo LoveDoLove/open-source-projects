@@ -31,8 +31,8 @@
             "description": "Project Memory gives coding agents a single, trustworthy memory for a software repository — so they stop re-learning the same facts and stop writing conflicting \"memory\" files.",
             "html_url": "https://github.com/LoveDoLove/Project-Memory-Agent",
             "homepage": "",
-            "stargazers_count": 1,
-            "forks_count": 0,
+            "stargazers_count": 5,
+            "forks_count": 2,
             "topics": [
               "agentic-ai",
               "ai-agents",
@@ -40,6 +40,7 @@
               "codex",
               "coding-agents",
               "developer-tools",
+              "dsh-plugin",
               "knowledge-management",
               "llm-agents",
               "opencode",
@@ -47,7 +48,7 @@
               "repository-memory",
               "software-engineering"
             ],
-            "updated_at": "2026-08-29T11:59:17Z"
+            "updated_at": "2026-09-26T11:28:10Z"
           },
           {
             "repo": "open-source-projects",
@@ -69,7 +70,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-08-31T04:17:57Z"
+            "updated_at": "2026-09-29T04:45:52Z"
           },
           {
             "repo": "cf-best-domain",
@@ -91,7 +92,7 @@
               "python",
               "requests"
             ],
-            "updated_at": "2026-09-01T01:46:59Z"
+            "updated_at": "2026-09-30T04:14:36Z"
           },
           {
             "repo": "vps-scripts",
@@ -245,7 +246,7 @@
               "go",
               "webdav"
             ],
-            "updated_at": "2025-08-17T08:05:18Z"
+            "updated_at": "2026-09-19T12:06:04Z"
           },
           {
             "repo": "memos-freebsd",
@@ -272,7 +273,7 @@
               "release",
               "sysroot"
             ],
-            "updated_at": "2025-11-09T07:19:43Z"
+            "updated_at": "2026-09-19T12:06:30Z"
           },
           {
             "repo": "panindex-freebsd",
@@ -294,7 +295,7 @@
             "stargazers_count": 1,
             "forks_count": 0,
             "topics": [],
-            "updated_at": "2025-08-17T08:05:01Z"
+            "updated_at": "2026-09-19T12:04:37Z"
           },
           {
             "repo": "EasyKit",
@@ -302,7 +303,7 @@
             "description": "EasyKit is a comprehensive Windows toolkit designed specifically for web developers. It provides a unified console interface that integrates multiple development tools including Git, NPM, Composer, and Laravel Artisan, making it easier to manage web development workflows on Windows systems.",
             "html_url": "https://github.com/LoveDoLove/EasyKit",
             "homepage": "https://easykit.lovedolove.nyc.mn",
-            "stargazers_count": 3,
+            "stargazers_count": 4,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -318,7 +319,7 @@
               "windows-automation",
               "windows-toolkit"
             ],
-            "updated_at": "2026-01-09T23:57:54Z"
+            "updated_at": "2026-09-10T06:04:48Z"
           },
           {
             "repo": "LDLWinToolBox",
