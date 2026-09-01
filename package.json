@@ -12,5 +12,12 @@
 	},
 	"dependencies": {
 		"node-fetch": "^3.3.2"
+	},
+	"pnpm": {
+		"ignoredBuiltDependencies": [
+			"esbuild",
+			"sharp",
+			"workerd"
+		]
 	}
 }
