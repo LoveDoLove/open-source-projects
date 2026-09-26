@@ -31,8 +31,8 @@
             "description": "Project Memory gives coding agents a single, trustworthy memory for a software repository — so they stop re-learning the same facts and stop writing conflicting \"memory\" files.",
             "html_url": "https://github.com/LoveDoLove/Project-Memory-Agent",
             "homepage": "",
-            "stargazers_count": 3,
-            "forks_count": 1,
+            "stargazers_count": 5,
+            "forks_count": 2,
             "topics": [
               "agentic-ai",
               "ai-agents",
@@ -48,7 +48,7 @@
               "repository-memory",
               "software-engineering"
             ],
-            "updated_at": "2026-09-22T16:04:32Z"
+            "updated_at": "2026-09-26T01:29:12Z"
           },
           {
             "repo": "open-source-projects",
@@ -70,7 +70,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-09-24T03:39:02Z"
+            "updated_at": "2026-09-25T03:55:33Z"
           },
           {
             "repo": "cf-best-domain",
@@ -92,7 +92,7 @@
               "python",
               "requests"
             ],
-            "updated_at": "2026-09-25T00:28:09Z"
+            "updated_at": "2026-09-26T01:12:58Z"
           },
           {
             "repo": "vps-scripts",
