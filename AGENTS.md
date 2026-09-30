@@ -111,7 +111,7 @@ Three workflows in `.github/workflows/`:
   at repo root, not under `public/`.
 - `public/sitemap.xml`, `public/robots.txt`, and the homepage field in
   `public/data/projects.json` still point at the old Pages domain
-  `https://lovedolove.hidns.co`.
+  `https://lovedolove.qzz.io`.
 - README Getting Started uses npm (repo is pnpm-locked) and credits
   node-fetch.
 - `package.json` version 1.0.4 is stale; versioning is by commit message.
