@@ -55,7 +55,7 @@
             "name": "open-source-projects",
             "description": "The Open Source Projects Showcase is a dynamic web application designed to elegantly display and organize open source projects. Built with modern web technologies and deployed on Cloudflare Workers, this project provides a clean, responsive interface for browsing project collections.",
             "html_url": "https://github.com/LoveDoLove/open-source-projects",
-            "homepage": "https://lovedolove.hidns.co",
+            "homepage": "https://lovedolove.qzz.io",
             "stargazers_count": 4,
             "forks_count": 1,
             "topics": [
@@ -70,7 +70,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-09-29T04:45:52Z"
+            "updated_at": "2026-11-12T07:12:06Z"
           },
           {
             "repo": "cf-best-domain",
@@ -78,7 +78,7 @@
             "description": "Automate Cloudflare DNS A record management and collect the best Cloudflare IPs.",
             "html_url": "https://github.com/LoveDoLove/cf-best-domain",
             "homepage": "https://github.com/LoveDoLove/cf-best-domain",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
               "api",
@@ -92,37 +92,18 @@
               "python",
               "requests"
             ],
-            "updated_at": "2026-09-30T04:14:36Z"
+            "updated_at": "2026-11-12T11:41:36Z"
           },
           {
             "repo": "vps-scripts",
             "name": "vps-scripts",
-            "description": "A comprehensive, modular VPS management toolkit with bilingual (Chinese/English) support. Features a Docker App Store, firewall & WAF security, SSL certificate management, kernel & BBR tuning, LDNMP web stack, FRP tunneling, system benchmarks, and more.",
-            "html_url": "https://github.com/LoveDoLove/vps-scripts",
-            "homepage": "https://vps-scripts.lovedolove.qzz.io",
-            "stargazers_count": 1,
-            "forks_count": 1,
-            "topics": [
-              "bash-script",
-              "bbr",
-              "cloudflare-warp",
-              "devops-tools",
-              "docker",
-              "docker-app-store",
-              "firewall-management",
-              "frp",
-              "linux-server",
-              "lnmp",
-              "mysql",
-              "nginx",
-              "oracle-cloud",
-              "portainer",
-              "redis",
-              "ssl-certificates",
-              "vps",
-              "wordpress"
-            ],
-            "updated_at": "2026-08-03T16:45:37Z"
+            "description": "",
+            "html_url": "",
+            "homepage": "",
+            "stargazers_count": 0,
+            "forks_count": 0,
+            "topics": [],
+            "updated_at": ""
           },
           {
             "repo": "RemoteRun",
@@ -254,7 +235,7 @@
             "description": "This project provides a FreeBSD-compatible build and porting scripts for the memos self-hosted knowledge base server. It enables building and running memos natively on FreeBSD systems using cross-compilation and custom build tooling.",
             "html_url": "https://github.com/LoveDoLove/memos-freebsd",
             "homepage": "https://github.com/LoveDoLove/memos-freebsd",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -273,7 +254,7 @@
               "release",
               "sysroot"
             ],
-            "updated_at": "2026-09-19T12:06:30Z"
+            "updated_at": "2026-11-04T11:33:50Z"
           },
           {
             "repo": "panindex-freebsd",
@@ -377,13 +358,13 @@
           {
             "repo": "PrismLauncher",
             "name": "PrismLauncher",
-            "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
-            "html_url": "https://github.com/LoveDoLove/PrismLauncher",
-            "homepage": "https://prismlauncher.org",
-            "stargazers_count": 4,
+            "description": "",
+            "html_url": "",
+            "homepage": "",
+            "stargazers_count": 0,
             "forks_count": 0,
             "topics": [],
-            "updated_at": "2026-08-15T16:27:47Z"
+            "updated_at": ""
           },
           {
             "repo": "cloudflare-edge-commander",
