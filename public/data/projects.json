@@ -55,7 +55,7 @@
             "name": "open-source-projects",
             "description": "The Open Source Projects Showcase is a dynamic web application designed to elegantly display and organize open source projects. Built with modern web technologies and deployed on Cloudflare Workers, this project provides a clean, responsive interface for browsing project collections.",
             "html_url": "https://github.com/LoveDoLove/open-source-projects",
-            "homepage": "https://lovedolove.hidns.co",
+            "homepage": "https://lovedolove.qzz.io",
             "stargazers_count": 4,
             "forks_count": 1,
             "topics": [
@@ -70,7 +70,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-09-29T04:45:52Z"
+            "updated_at": "2026-09-30T12:33:52Z"
           },
           {
             "repo": "cf-best-domain",
@@ -92,7 +92,7 @@
               "python",
               "requests"
             ],
-            "updated_at": "2026-09-30T04:14:36Z"
+            "updated_at": "2026-10-01T00:41:29Z"
           },
           {
             "repo": "vps-scripts",
