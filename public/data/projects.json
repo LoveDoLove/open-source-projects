@@ -70,7 +70,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-10-26T03:42:52Z"
+            "updated_at": "2026-10-27T04:06:18Z"
           },
           {
             "repo": "cf-best-domain",
@@ -92,7 +92,7 @@
               "python",
               "requests"
             ],
-            "updated_at": "2026-10-27T02:18:08Z"
+            "updated_at": "2026-10-28T04:16:21Z"
           },
           {
             "repo": "vps-scripts",
@@ -377,13 +377,13 @@
           {
             "repo": "PrismLauncher",
             "name": "PrismLauncher",
-            "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)",
-            "html_url": "https://github.com/LoveDoLove/PrismLauncher",
-            "homepage": "https://prismlauncher.org",
-            "stargazers_count": 4,
+            "description": "",
+            "html_url": "",
+            "homepage": "",
+            "stargazers_count": 0,
             "forks_count": 0,
             "topics": [],
-            "updated_at": "2026-08-15T16:27:47Z"
+            "updated_at": ""
           },
           {
             "repo": "cloudflare-edge-commander",
