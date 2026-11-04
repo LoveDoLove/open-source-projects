@@ -70,7 +70,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-11-02T04:54:47Z"
+            "updated_at": "2026-11-03T05:43:44Z"
           },
           {
             "repo": "cf-best-domain",
@@ -92,37 +92,18 @@
               "python",
               "requests"
             ],
-            "updated_at": "2026-11-03T03:36:46Z"
+            "updated_at": "2026-11-04T00:05:32Z"
           },
           {
             "repo": "vps-scripts",
             "name": "vps-scripts",
-            "description": "A comprehensive, modular VPS management toolkit with bilingual (Chinese/English) support. Features a Docker App Store, firewall & WAF security, SSL certificate management, kernel & BBR tuning, LDNMP web stack, FRP tunneling, system benchmarks, and more.",
-            "html_url": "https://github.com/LoveDoLove/vps-scripts",
-            "homepage": "https://vps-scripts.lovedolove.qzz.io",
-            "stargazers_count": 1,
-            "forks_count": 1,
-            "topics": [
-              "bash-script",
-              "bbr",
-              "cloudflare-warp",
-              "devops-tools",
-              "docker",
-              "docker-app-store",
-              "firewall-management",
-              "frp",
-              "linux-server",
-              "lnmp",
-              "mysql",
-              "nginx",
-              "oracle-cloud",
-              "portainer",
-              "redis",
-              "ssl-certificates",
-              "vps",
-              "wordpress"
-            ],
-            "updated_at": "2026-08-03T16:45:37Z"
+            "description": "",
+            "html_url": "",
+            "homepage": "",
+            "stargazers_count": 0,
+            "forks_count": 0,
+            "topics": [],
+            "updated_at": ""
           },
           {
             "repo": "RemoteRun",
