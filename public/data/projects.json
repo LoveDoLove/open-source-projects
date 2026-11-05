@@ -70,7 +70,7 @@
               "responsive-design",
               "showcase"
             ],
-            "updated_at": "2026-11-03T05:43:44Z"
+            "updated_at": "2026-11-04T05:16:20Z"
           },
           {
             "repo": "cf-best-domain",
@@ -78,7 +78,7 @@
             "description": "Automate Cloudflare DNS A record management and collect the best Cloudflare IPs.",
             "html_url": "https://github.com/LoveDoLove/cf-best-domain",
             "homepage": "https://github.com/LoveDoLove/cf-best-domain",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
               "api",
@@ -92,7 +92,7 @@
               "python",
               "requests"
             ],
-            "updated_at": "2026-11-04T00:05:32Z"
+            "updated_at": "2026-11-05T01:40:03Z"
           },
           {
             "repo": "vps-scripts",
@@ -235,7 +235,7 @@
             "description": "This project provides a FreeBSD-compatible build and porting scripts for the memos self-hosted knowledge base server. It enables building and running memos natively on FreeBSD systems using cross-compilation and custom build tooling.",
             "html_url": "https://github.com/LoveDoLove/memos-freebsd",
             "homepage": "https://github.com/LoveDoLove/memos-freebsd",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "forks_count": 0,
             "topics": [
               "automation",
@@ -254,7 +254,7 @@
               "release",
               "sysroot"
             ],
-            "updated_at": "2026-09-19T12:06:30Z"
+            "updated_at": "2026-11-04T11:33:50Z"
           },
           {
             "repo": "panindex-freebsd",
