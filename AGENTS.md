@@ -1,142 +1,48 @@
 # AGENTS.md — Open Source Projects
 
-Static showcase of the LoveDoLove GitHub account's 19 repos. Cloudflare
-Workers serves `public/` as static assets; a worker adds markdown content
-negotiation ("Markdown for Agents"). Plain HTML/JS/CSS, no framework, no
-build step. Package manager: pnpm. Repo language: English.
+AI coding agent instructions and project guidelines for `open-source-projects`.
 
-## Quick Reference
+This repository is an edge-native, dual-mode showcase for open source repositories by LoveDoLove. It serves an accessible vanilla HTML/CSS/JS frontend to web browsers, and pre-tokenized, structured Markdown to AI coding agents requesting `Accept: text/markdown`.
 
-- Dev: `pnpm dev` (package.json script wrapping `wrangler dev`).
-- Manual deploy: `pnpm deploy` (Wrangler OAuth, account LoveDoLove, Workers
-  write scope). Routine deploys are automatic — see Deployment.
-- Data flow: `data/projects.json` -> `scripts/fetchRepoMetadata.js` (GitHub
-  REST) -> `public/data/projects.json` -> browser cards / worker markdown.
-- Live: https://open-source-projects.lovedolove.workers.dev
-- Change the project list by editing `data/projects.json`. Never hand-edit
-  `public/data/projects.json` — CI regenerates it daily.
+Repo language: English. Package manager: pnpm. Deployment platform: Cloudflare Workers with Static Assets.
 
-## Project Overview
+## Quick reference
 
-Single page listing the 19 GitHub repos of account LoveDoLove. The frontend
-supports four providers (github, gitlab, gitee, bitbucket), but only GitHub
-data exists — the other arrays are empty and nothing fetches them.
+- **Dev server:** `pnpm dev` (wraps `wrangler dev` on `http://localhost:8787`).
+- **Production deploy:** `pnpm deploy` (runs `wrangler deploy`). Routine deploys are automatic via Cloudflare Workers Git integration on push to `main`.
+- **Metadata sync:** `node scripts/fetchRepoMetadata.js` (fetches repository statistics from GitHub REST API).
+- **Data flow:** `data/projects.json` (source of truth) -> `scripts/fetchRepoMetadata.js` -> `public/data/projects.json` -> rendered by browser cards or edge Markdown worker.
+- **Live URL:** https://open-source-projects.lovedolove.workers.dev
+- **Agent Markdown test:** `curl -H "Accept: text/markdown" https://open-source-projects.lovedolove.workers.dev`
 
-## Architecture and Data Flow
+## Documentation index
 
-- Worker `src/index.js`: `Accept: text/markdown` on `/` or `/index.html`
-  fetches `/data/projects.json` from `env.ASSETS` and renders markdown —
-  one H2 per project: name linked to `html_url`, description,
-  stars/forks/updated, topics, homepage. Response headers:
-  `content-type: text/markdown; charset=utf-8`, `Vary: Accept`,
-  `cache-control: public, max-age=3600`, `x-markdown-tokens: ceil(len/4)`.
-  All other requests pass through via `env.ASSETS.fetch(request)`.
-- `public/index.html` loads `index.min.js` (deferred) + `style.min.css`;
-  the client fetches `/data/projects.json` and renders project cards.
-- `scripts/fetchRepoMetadata.js` calls `api.github.com/repos/{user}/{repo}`
-  per project. Optional `GITHUB_TOKEN` (Bearer; 5000 req/hr vs 60/hr
-  unauthenticated). Uses Node global `fetch`.
+Detailed technical specifications live in the `docs/` directory. Consult them for deep dives:
 
-## Deployment
+- [System architecture](docs/architecture.md): Cloudflare Workers runtime, Static Assets binding (`env.ASSETS`), `run_worker_first` routing, content negotiation, and client-side DOM rendering.
+- [Metadata pipeline and automation](docs/metadata-pipeline.md): Source schema, GitHub API rate limits, error fallbacks, and the atomic commit-folding CI workflow in `.github/workflows/fetch-repo-metadata.yml`.
+- [Deployment and observability](docs/deployment.md): Cloudflare Workers Git integration, Wrangler configuration, and observability metrics.
+- [Contributing guide](docs/contributing.md): Adding repositories, local development setup, code formatting, and pull request workflow.
+- [Whitepaper (English)](docs/whitepaper.md) / [白皮书 (简体中文)](docs/whitepaper.zh-CN.md): System vision, design philosophy, edge architecture, token economics, and technical roadmap.
 
-- Cloudflare Workers Git integration (dashboard-resident, not in-repo):
-  branch `main`, root directory `/`, deploy command `npx wrangler deploy`,
-  version command `npx wrangler versions upload`.
-- Push to `main` (including CI metadata commits) auto-redeploys.
-- GitHub Pages deployment removed (commit 58a9aee, 2026-09-01, after the
-  Workers build was verified green). Workers is the only host.
+## Key invariants and rules
 
-## CI and Automation
+1. **Source of truth:** Change the project list by editing `data/projects.json`. Never hand-edit `public/data/projects.json`. CI regenerates it automatically.
+2. **Edge content negotiation:** The configuration `run_worker_first: ["/", "/index.html"]` in `wrangler.jsonc` is load-bearing. Without it, Cloudflare edge serves static assets directly and `src/index.js` never executes for root requests. Do not remove or change it without testing `Accept: text/markdown`.
+3. **Dual frontend files:** The repository maintains unminified source files (`public/index.js`, `public/style.css`) and minified files (`public/index.min.js`, `public/style.min.css`) without a build step. If you edit JavaScript or CSS, update both files.
+4. **Pnpm workspace configuration:** `pnpm-workspace.yaml` specifies `packages: ['.']`. Cloudflare Workers CI runs pnpm 10.11.1, which fails without this file.
+5. **Ignored build dependencies:** `package.json` and `pnpm-workspace.yaml` define `ignoredBuiltDependencies: [esbuild, sharp, workerd]` to keep pnpm builds deterministic across versions.
 
-Three workflows in `.github/workflows/`:
+## Gotchas and lessons
 
-- `fetch-repo-metadata.yml`: cron `0 0 * * *` + manual dispatch; Node 20,
-  `npm install`, runs the fetch script, then commits as
-  `github-actions[bot]` ("Update public/data/projects.json with latest repo
-  metadata") and pushes `--force-with-lease` to `main` (re-triggers the
-  Workers deploy). One step does commit+push so a day's run replaces the
-  previous automatic commit instead of stacking one per day: when HEAD is
-  that same bot commit and message it is discarded first (up to 5, or down
-  to a root commit), every other file is restored from the discarded
-  commit's parent so only the generated file can change, and the run exits
-  without committing when the metadata already matches HEAD. If the lease
-  is rejected because `main` moved during the run, the generated file is
-  replayed onto the current tip and pushed normally — never force-pushed.
-  Verified with a scratch-repo harness covering folded bots, human commits
-  on top, no-op runs, a stray edit inside the bot commit, and a racing push.
-- `cleanup-all-runs.yml` / `cleanup-failed-runs.yml`: manual dispatch only,
-  `actions: write`; curl and run Python from LoveDoLove/Github-Action-Cleaner
-  at runtime — external supply-chain dependency: changes there execute here.
-- CI `npx` resolves the latest Wrangler (4.127.1) regardless of the
-  lockfile; local uses 4.121.0. Expect version drift.
+- **PowerShell line encoding:** In PowerShell, `git show REF:file > out` encodes files as UTF-16 LE with a byte-order mark (BOM). Wrangler rejects files with UTF-16 LE BOM. Use `[IO.File]::WriteAllText` or native tools for byte-safe file writes.
+- **Wrangler entry point errors:** If Cloudflare CI reports `Missing entry-point`, the Git integration root directory in the Cloudflare dashboard is incorrect. The root must be `/`.
+- **Silent metadata fetch fallbacks:** When `scripts/fetchRepoMetadata.js` encounters GitHub API rate limits or network issues, it logs a warning and inserts a fallback entry (stargazers = 0, forks = 0) so the build does not break. Check workflow execution logs to detect API quota exhaustion.
+- **Git history rewrites:** Commit history is periodically squashed and force-pushed. Do not rely on persistent commit SHAs across long intervals.
 
-## Key Files
+## Known debt
 
-- `wrangler.jsonc` — Worker config: main `src/index.js`, assets binding
-  `ASSETS` serving `./public`, observability on.
-- `src/index.js` — markdown-for-agents worker.
-- `public/` — the whole static site, served as Workers static assets.
-- `data/projects.json` — source of truth for the project list.
-- `public/data/projects.json` — generated output; do not hand-edit.
-- `scripts/fetchRepoMetadata.js` — metadata updater (root -> public).
-- `pnpm-workspace.yaml`, `package.json` — pnpm config (see Decisions).
-
-## Decisions
-
-- Pages -> Workers: hosting unified on one platform that serves both the
-  static site and the markdown worker; the Pages workflow was deleted only
-  after the Workers build was verified green (58a9aee).
-- Worker instead of zone-level Markdown conversion: Cloudflare's zone-level
-  "Markdown for Agents" feature requires a Pro plan; the worker implements
-  the same Accept-header negotiation manually.
-- `run_worker_first: ["/", "/index.html"]` is load-bearing: without it,
-  static assets answer `/` before the worker runs and markdown negotiation
-  never executes. Verified live — the first deploy returned HTML until this
-  was added (fix 0ffe411). Do not remove.
-- `pnpm-workspace.yaml` `packages: ['.']`: the Cloudflare build runs pnpm
-  10.11.1, which fails ("packages field missing or empty") without it.
-- `ignoredBuiltDependencies: [esbuild, sharp, workerd]` (workspace yaml and
-  `package.json` pnpm field): pnpm 11 makes ignored build scripts a hard
-  error (exit 1) unless explicitly listed; the list makes both pnpm 10 and
-  11 exit 0. The undocumented `allowBuilds` yaml key is possibly inert.
-
-## Gotchas and Lessons
-
-- PowerShell: `git show REF:file > out` re-encodes as UTF-16 LE, which
-  Wrangler rejects ("UTF-16 LE byte order marker"). Use
-  `[IO.File]::WriteAllText` for byte-safe writes, never `>` redirection.
-- Wrangler "Missing entry-point" in CI deploys means the Git integration
-  root directory is wrong (must be `/`) — a dashboard fix, not a repo fix.
-- Metadata fetch failures are silent: each failure logs a warning, writes
-  placeholder metadata (repo name, zeros, empty strings), and the output is
-  still committed and deployed. Detect failures in the workflow log.
-- Commit SHAs are unstable: history is routinely squash-rebased and
-  force-pushed (82->1, 17->1; the 2026-09-01 rebase rewrote 530e908/62b05d
-  to 94492d2/0ffe411). Do not rely on old SHAs.
-
-## Known Debt (verified stale; fix deliberately, then update this list)
-
-- `public/index.html:16,19,29`: og:url/og:image/twitter:image are
-  `yourdomain.com` placeholders; og:image is doubly broken — `images/` sits
-  at repo root, not under `public/`.
-- `public/sitemap.xml`, `public/robots.txt`, and the homepage field in
-  `public/data/projects.json` still point at the old Pages domain
-  `https://lovedolove.qzz.io`.
-- README Getting Started uses npm (repo is pnpm-locked) and credits
-  node-fetch.
-- `package.json` version 1.0.4 is stale; versioning is by commit message.
-- `node-fetch` dependency: fallback path never executes on Node >= 18 —
-  dead weight on Node 18+.
-- `public/index.js:9-10`: hostname ternary with identical branches — dead
-  code.
-
-## Conventions
-
-- Versioning: squashed commit messages carry the version ("2.2.0",
-  "2.1.0"); tags abandoned after v1.1.1 (8 tags: 1.0.0..v1.1.1).
-  `package.json` version is not authoritative.
-- `index.min.js` / `style.min.css` are manually produced and committed — no
-  build script. The unreferenced source copies `index.js` / `style.css` are
-  kept in sync by hand; update both when editing.
-- `.gitattributes` enforces LF normalization (`* text=auto`).
-- pnpm is the package manager; the metadata workflow installs with npm.
+- `public/index.html`: Open Graph and Twitter meta tags contain placeholder URLs (`https://yourdomain.com/`).
+- `public/sitemap.xml`, `public/robots.txt`, and `homepage` fields in metadata point to the legacy Pages domain `https://lovedolove.qzz.io`.
+- `node-fetch` in `package.json`: Global `fetch` exists natively in Node.js 18+. The fallback import in `scripts/fetchRepoMetadata.js` is unused in modern Node.js environments.
+- `public/index.js`: Contains a redundant hostname ternary operator (`hostname === 'localhost' ? ... : ...`).
