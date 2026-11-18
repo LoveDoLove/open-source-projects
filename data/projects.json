@@ -4,25 +4,21 @@
       {
         "username": "LoveDoLove",
         "projects": [
-          "Project-Memory-Agent",
-          "open-source-projects",
+          "Veyra",
+          "dsh-codebase-memory-mcp",
+          "dsh-token-saver",
           "cf-best-domain",
-          "vps-scripts",
-          "RemoteRun",
-          "Github-Profile-Manager",
-          "Github-Forks-Sync-Manager",
-          "Github-Action-Cleaner",
           "alist-freebsd",
           "memos-freebsd",
           "panindex-freebsd",
           "cloudreve-freebsd",
-          "EasyKit",
-          "LDLWinToolBox",
-          "SuperGit-Tools",
-          "PrismLauncher",
           "cloudflare-edge-commander",
           "cloudflare-smart-cache",
-          "cloudflare-load-balancer"
+          "cloudflare-load-balancer",
+          "Github-Profile-Manager",
+          "Github-Forks-Sync-Manager",
+          "Github-Action-Cleaner",
+          "open-source-projects"
         ]
       }
     ],
