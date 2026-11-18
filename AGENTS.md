@@ -51,9 +51,19 @@ data exists — the other arrays are empty and nothing fetches them.
 Three workflows in `.github/workflows/`:
 
 - `fetch-repo-metadata.yml`: cron `0 0 * * *` + manual dispatch; Node 20,
-  `npm install`, runs the fetch script, commits as `github-actions[bot]`
-  ("Update public/data/projects.json with latest repo metadata"), pushes
-  `--force-with-lease` to `main` (re-triggers the Workers deploy).
+  `npm install`, runs the fetch script, then commits as
+  `github-actions[bot]` ("Update public/data/projects.json with latest repo
+  metadata") and pushes `--force-with-lease` to `main` (re-triggers the
+  Workers deploy). One step does commit+push so a day's run replaces the
+  previous automatic commit instead of stacking one per day: when HEAD is
+  that same bot commit and message it is discarded first (up to 5, or down
+  to a root commit), every other file is restored from the discarded
+  commit's parent so only the generated file can change, and the run exits
+  without committing when the metadata already matches HEAD. If the lease
+  is rejected because `main` moved during the run, the generated file is
+  replayed onto the current tip and pushed normally — never force-pushed.
+  Verified with a scratch-repo harness covering folded bots, human commits
+  on top, no-op runs, a stray edit inside the bot commit, and a racing push.
 - `cleanup-all-runs.yml` / `cleanup-failed-runs.yml`: manual dispatch only,
   `actions: write`; curl and run Python from LoveDoLove/Github-Action-Cleaner
   at runtime — external supply-chain dependency: changes there execute here.
