@@ -27,7 +27,7 @@
             "description": "Persistent engineering memory for coding agents. A DeepSeek Harness plugin that captures what the agent learned, keeps only what held up, and recalls it automatically. Local SQLite, no daemon, no API keys.",
             "html_url": "https://github.com/LoveDoLove/Veyra",
             "homepage": "https://www.npmjs.com/package/@lovedolove/veyra",
-            "stargazers_count": 5,
+            "stargazers_count": 4,
             "forks_count": 1,
             "topics": [
               "agent-memory",
@@ -49,7 +49,7 @@
               "rag",
               "sqlite"
             ],
-            "updated_at": "2026-11-14T18:13:42Z"
+            "updated_at": "2026-11-25T09:51:59Z"
           },
           {
             "repo": "dsh-codebase-memory-mcp",
@@ -87,7 +87,7 @@
             "description": "DeepSeek Harness plugin for token efficiency. Trims oversized tool output, folds grep results, and adds optional RTK compaction, prompt shaping, and local responses.",
             "html_url": "https://github.com/LoveDoLove/dsh-token-saver",
             "homepage": "https://github.com/LoveDoLove/dsh-token-saver",
-            "stargazers_count": 2,
+            "stargazers_count": 3,
             "forks_count": 0,
             "topics": [
               "context-management",
@@ -102,29 +102,35 @@
               "token-optimization",
               "typescript"
             ],
-            "updated_at": "2026-11-15T05:59:27Z"
+            "updated_at": "2026-11-25T06:00:01Z"
           },
           {
             "repo": "cf-best-domain",
             "name": "cf-best-domain",
-            "description": "Automate Cloudflare DNS A record management and collect the best Cloudflare IPs.",
+            "description": "Automated Cloudflare optimal IP discovery and DNS A-record synchronization pipeline powered by serverless GitHub Actions.",
             "html_url": "https://github.com/LoveDoLove/cf-best-domain",
             "homepage": "https://github.com/LoveDoLove/cf-best-domain",
-            "stargazers_count": 2,
+            "stargazers_count": 1,
             "forks_count": 0,
             "topics": [
+              "anycast",
               "api",
               "automation",
-              "beautifulsoup",
+              "cdn",
               "cloudflare",
+              "cloudflare-dns",
+              "cloudflare-ip",
               "devops",
               "dns",
+              "dns-management",
               "domain-management",
+              "github-actions",
               "networking",
               "python",
-              "requests"
+              "requests",
+              "serverless"
             ],
-            "updated_at": "2026-11-12T11:41:36Z"
+            "updated_at": "2026-11-26T06:21:33Z"
           },
           {
             "repo": "alist-freebsd",
